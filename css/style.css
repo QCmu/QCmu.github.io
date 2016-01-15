@@ -174,14 +174,6 @@ h1, h2, h3, h4, h5, h6 {
 /* 04 HEADER SETTINGS
 --------------------------------------------------------------- */
 
-#welcome {
-	background: url('../images/photo.jpg') no-repeat center center;
-	background-size: cover;
-	width: 100%;
-	height: 600px;
-	position: relative;
-}
-
 .fade {
 	background: rgba(25,25,25, 0.6);
 	width: 100%;
