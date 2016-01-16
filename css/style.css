@@ -25,7 +25,7 @@
 /* 01 IMPORT FONT FAMILY
 --------------------------------------------------------------- */
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
-@import url(http://fonts.googleapis.com/css?family=Neuton);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
 
 /* 02 CSS RESET
 --------------------------------------------------------------- */
@@ -88,7 +88,7 @@ table {
 
 body {
 	background: #fff;
-	font: 300 14px 'Neuton', sans-serif;
+	font: 300 14px 'Roboto', sans-serif;
 	text-align: center;
 	color: #999;
 }
@@ -96,6 +96,7 @@ body {
 p {
 	line-height: 1.4;
 	font-size: 18px;
+	font-family: 'Roboto';
 }
 
 a {
@@ -132,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section_subtitle {
 	margin: 0 0 50px 0;
-	font: italic 18px 'Open Sans', sans-serif;
+	font: italic 18px 'Roboto', sans-serif;
 	text-transform: none;
 }
 
