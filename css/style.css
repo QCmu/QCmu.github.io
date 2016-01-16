@@ -25,7 +25,7 @@
 /* 01 IMPORT FONT FAMILY
 --------------------------------------------------------------- */
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300);
+@import url(http://fonts.googleapis.com/css?family=neuton);
 
 /* 02 CSS RESET
 --------------------------------------------------------------- */
@@ -88,7 +88,7 @@ table {
 
 body {
 	background: #fff;
-	font: 300 14px 'Open Sans', sans-serif;
+	font: 300 14px 'neuton', sans-serif;
 	text-align: center;
 	color: #999;
 }
@@ -536,6 +536,8 @@ footer a:hover { color: #a67d4a }
 .det_intro h3{
 	padding-top:40px;
 	padding-bottom:30px;
+	font-size: 17px;
+	font-weight: bolder;
 }
 .twoImage img{
 	width: 50%;
