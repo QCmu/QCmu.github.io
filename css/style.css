@@ -25,8 +25,7 @@
 /* 01 IMPORT FONT FAMILY
 --------------------------------------------------------------- */
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
-@import url(http://fonts.googleapis.com/css?family=Roboto);
-
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 /* 02 CSS RESET
 --------------------------------------------------------------- */
 html, body, div, span, applet, object, iframe,
@@ -96,7 +95,7 @@ body {
 p {
 	line-height: 1.4;
 	font-size: 18px;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 }
 
 a {
