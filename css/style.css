@@ -501,7 +501,7 @@ footer a:hover { color: #a67d4a }
 
 /* Height */
 @media (max-height: 568px) {
-	#welcome { height: 100vh; }
+	#welcome { height: 100px}
 }
 
 #mi{
@@ -1355,7 +1355,7 @@ Javascript disabled
 }
 .bm{
 	background-image: url(../images/bm-top.png);
-	background-color: rgb(130,127,77);
+	background-color: rgb(101,96,60);
 }
 .bm h2{
 	color: #fff;
