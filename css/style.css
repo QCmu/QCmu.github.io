@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
 /* 07 CONTACT SETTINGS
 --------------------------------------------------------------- */
 
-#contact { padding: 100px 50px; }
+#contact { padding: 0px 50px; }
 
 .info {
 	display: flex;
@@ -350,6 +350,9 @@ h1, h2, h3, h4, h5, h6 {
 .info h3 {
 	color: #a67d4a;
 	margin: 0 0 15px 0;
+}
+.info p {
+	font-size: 10px;
 }
 
 /* Social icons */
