@@ -851,8 +851,8 @@ Single slide style
   font-size: 2rem;
 }
 .cd-hero-slider p {
-  font-size: 1.4rem;
-  line-height: 1.4;
+  font-size: 10px;
+  /*line-height: 1.4;*/
 }
 .cd-hero-slider .cd-btn {
   display: inline-block;
@@ -952,7 +952,7 @@ Single slide style
     font-size: 2.4em;
   }
   .cd-hero-slider p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
