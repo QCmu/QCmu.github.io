@@ -523,6 +523,34 @@ footer a:hover { color: #a67d4a }
 	font-size: 15px;
 	padding-bottom: 30px;
 }
+#ab_main{	
+	padding-top:100px;
+	width: 70%;
+	margin: 0 auto;
+	color: rgb(249,160,165);
+	height: 350px;
+}
+#ab_main p{
+	float: right;
+	width: 60%;
+	font-size: 22px;
+	padding-bottom: 30px;
+	text-align: left;
+	padding-top: 10px;
+/*	border-style:solid;
+	border-width:2px;
+	border-color: rgb(249,160,165);*/
+}
+#ab_main img{
+
+	width:200px;
+	height:200px; 
+	border-radius:50%; 
+	overflow:hidden;
+	border-style:solid;
+	border-width:4px;
+	border-color: rgb(249,160,165);
+}
 .det_intro{
 	/*padding-top:100px;*/
 	width: 70%;
@@ -1340,7 +1368,7 @@ Javascript disabled
 }
 
 /*-----------*/
-.bk, .bm, .cs, .ex{	
+.bk, .bm, .cs, .ex, .ct{	
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 200px;
@@ -1374,4 +1402,73 @@ Javascript disabled
 .ex h2{
 	color: #fff;
 }
-
+.ct{
+	background-image: url(../images/ct-top.png);
+	background-color: rgb(38,38,48);
+}
+.ct h2{
+	color: #fff;
+}
+#ct-body{
+	background-color: rgb(48,46,60);
+}
+.city{
+	clear: both;
+	background: url(../images/ab2.png) no-repeat center center;
+	/*background-size:100%;*/
+	/*background-position: center;*/
+	/*color: rgb(249,160,165);*/
+	color: #fff;
+	height: 600px;
+	/*width: 853px;*/
+	margin: 0 auto;
+	text-align: left;
+	position:relative;
+}
+/*.city img{
+	width: 853px;
+	height: 600px;
+}*/
+#music{	
+	background-color: rgb(254,184,208);
+	width: 300px;
+	text-align: right;
+	border-radius: 5px;
+	left: 100px;
+	top: 100px;
+	position: absolute;
+	/*position:relative;*/
+	/*padding-top: 250px;*/
+}
+#music h3{
+	height: 50px;	
+	line-height: 50px;
+	overflow: hidden;
+	padding-right:5px;
+}
+#music p{
+	background-color: rgb(254,101,149);
+	font-size: 14px;
+	padding:5px;
+}
+#stage{	
+	background-color: rgb(213,134,204);
+	width: 300px;
+	text-align: left;
+	border-radius: 5px;
+	right: 100px;
+	bottom: 50px;
+	position: absolute;
+	/*padding-top: 250px;*/
+}
+#stage h3{
+	height: 50px;	
+	line-height: 50px;
+	overflow: hidden;
+	padding-left:5px;
+}
+#stage p{
+	background-color: rgb(174,0,163);
+	font-size: 14px;
+	padding:5px;
+}
