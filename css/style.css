@@ -206,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 /* 05 ABOUT SETTINGS
 --------------------------------------------------------------- */
 
-#about { padding: 100px 50px 0px; }
+#about { padding: 100px 50px 50px 50px; }
 
 .button {
 	margin: 50px 0 0;
@@ -316,7 +316,12 @@ h1, h2, h3, h4, h5, h6 {
 /* 07 CONTACT SETTINGS
 --------------------------------------------------------------- */
 
-#contact { padding: 0px 50px; }
+#contact { 
+	padding-left: 50px;
+	padding-bottom: 0px;
+	padding-top: 100px;
+	padding-right: 50px;
+	 }
 
 .info {
 	display: flex;
