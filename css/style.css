@@ -1340,7 +1340,7 @@ Javascript disabled
 }
 
 /*-----------*/
-.bk, .bm, .cs{	
+.bk, .bm, .cs, .ex{	
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 200px;
@@ -1367,5 +1367,11 @@ Javascript disabled
 .cs h2{
 	color: #fff;
 }
-
+.ex{
+	background-image: url(../images/ex-top.png);
+	background-color: rgb(102,163,163);
+}
+.ex h2{
+	color: #fff;
+}
 
