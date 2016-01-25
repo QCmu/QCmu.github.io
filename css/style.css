@@ -531,11 +531,14 @@ footer a:hover { color: #a67d4a }
 	font-size: 15px;
 	padding-bottom: 30px;
 }
+#ab_bg{
+	background-color: #D8127D;
+}
 #ab_main{	
 	padding-top:100px;
 	width: 70%;
 	margin: 0 auto;
-	color: rgb(249,160,165);
+	color: #fff;
 	height: 350px;
 }
 #ab_main p{
@@ -557,7 +560,7 @@ footer a:hover { color: #a67d4a }
 	overflow:hidden;
 	border-style:solid;
 	border-width:4px;
-	border-color: rgb(249,160,165);
+	border-color: #fff;
 }
 .det_intro{
 	/*padding-top:100px;*/
@@ -1418,11 +1421,11 @@ Javascript disabled
 	color: #fff;
 }
 #ct-body{
-	background-color: rgb(48,46,60);
+	/*background-color: rgb(48,46,60);*/
 }
 .city{
 	clear: both;
-	background: url(../images/ab2.png) no-repeat center center;
+	/*background: url(../images/ab2.png) no-repeat center center;*/
 	/*background-size:100%;*/
 	/*background-position: center;*/
 	/*color: rgb(249,160,165);*/
@@ -1430,13 +1433,20 @@ Javascript disabled
 	height: 600px;
 	/*width: 853px;*/
 	margin: 0 auto;
-	text-align: left;
+	text-align: center;
 	position:relative;
 }
-/*.city img{
-	width: 853px;
-	height: 600px;
-}*/
+#ct_bg{
+	/* Rectangle 53: */
+background-image: -webkit-linear-gradient(#2D195F 0%, #010025 100%);
+background-image: -o-linear-gradient(#2D195F 0%, #010025 100%);
+background-image: linear-gradient(#2D195F 0%, #010025 100%);
+}
+.city img{
+	margin: 0 auto;
+	box-shadow:0 0 30px 10px rgba(255,255,255,.7) inset;
+	
+}
 #music{	
 	background-color: rgb(254,184,208);
 	width: 300px;
