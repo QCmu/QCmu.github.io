@@ -1358,38 +1358,80 @@ Javascript disabled
 	border-width:4px;
 	border-color: #fff;
 }
-.city{
-	clear: both;
-	/*background: url(../images/ab2.png) no-repeat center center;*/
-	/*background-size:100%;*/
-	/*background-position: center;*/
-	/*color: rgb(249,160,165);*/
-	color: #fff;
-	height: 600px;
-	/*width: 853px;*/
-	margin: 0 auto;
-	text-align: center;
-	position:relative;
+#blank-bar{
+	width: 100%;
+	height: 80px;
+	background-color: #00C9D7;
+	text-align: left;
+	vertical-align:middle;
+
 }
+#blank-bar img{
+	float: left;
+	margin-left: 12%;
+	margin-top: 20px;
+}
+#blank-bar p{
+	color: #fff;
+	line-height: 80px;
+	margin-left: 15%;
+
+}
+
+
+
 #ct_bg{
 	/* Rectangle 53: */
-background-image: -webkit-linear-gradient(#2D195F 0%, #010025 100%);
+	background-color: rgb(1,17,50);
+/*background-image: -webkit-linear-gradient(#2D195F 0%, #010025 100%);
 background-image: -o-linear-gradient(#2D195F 0%, #010025 100%);
-background-image: linear-gradient(#2D195F 0%, #010025 100%);
+background-image: linear-gradient(#2D195F 0%, #010025 100%);*/
 }
-.city img{
-	margin: 0 auto;
-	box-shadow:0 0 30px 10px rgba(255,255,255,.7) inset;
-
+.ct-det{
+	padding-top: 80px;
+	width: 70%;
+	margin:0 auto;
+}
+.det-left{
+	width: 30%;
+	float: left;
+}
+.det-right{
+	margin-left: 30%;
+}
+.ab-img-det{
+	background-color: rgb(40,23,84);
+	width: 100%;
+	text-align: left;
+	border-radius: 5px;
+	color: #fff;
+}
+.ab-img-det h3{
+	height: 50px;	
+	line-height: 50px;
+	overflow: hidden;
+	padding-left:10px;
+}
+.ab-img-det p{
+	background-color: rgb(26,14,66);
+	font-size: 16px;
+	padding:10px;
+	color: rgb(191,191,191);
+}
+.brbr{
+	clear: both;
+	height: 80px;
 }
 #music{	
 	background-color: rgb(254,184,208);
 	width: 300px;
-	text-align: right;
+	text-align: left;
 	border-radius: 5px;
-	left: 100px;
+	color: #fff;
+	/*margin-left: 250px;*/
+	/*left: 100px;
 	top: 100px;
-	position: absolute;
+	position: absolute;*/
 	/*position:relative;*/
 	/*padding-top: 250px;*/
 }
@@ -1403,6 +1445,24 @@ background-image: linear-gradient(#2D195F 0%, #010025 100%);
 	background-color: rgb(254,101,149);
 	font-size: 14px;
 	padding:5px;
+}
+.city{
+	clear: both;
+	/*background: url(../images/ab2.png) no-repeat center center;*/
+	/*background-size:100%;*/
+	/*background-position: center;*/
+	/*color: rgb(249,160,165);*/
+	color: #fff;
+	height: 600px;
+	/*width: 853px;*/
+	margin: 0 auto;
+	text-align: center;
+	position:relative;
+}
+.city img{
+	margin: 0 auto;
+	/*box-shadow:0 0 30px 10px rgba(255,255,255,.7) inset;*/
+
 }
 #stage{	
 	background-color: rgb(213,134,204);
