@@ -2,15 +2,16 @@
 <html>
 
 <head>
-    <title>Qiaochu's Portfolio</title>
-    
-    
+    <title>Qiaochu Mu | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="images/favicon.ico"> 
-
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="js/particles.min.js"></script>
+    <link rel="shortcut icon" href="img/favicon.ico"> 
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script> -->
     <script src="js/jquery.parallax.js"></script>
+    <!-- <script src="http://matthew.wagerfield.com/parallax/deploy/jquery.parallax.js" crossorigin="anonymous"></script> -->
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -24,47 +25,218 @@
 </head>
 
 <body>
-
-   <div id="parallax">
-        <div class="layer" data-depth="0.6">
-            <div class="some-space">
-                <h1>QIAOCHU MU</h1>
-<!--                <h2>is </h2>-->
+    <nav>
+        <ul>
+            <li style="order:13;" id="nnav">
+                <ul class="inner-nav">
+                    <li id="b-1"><a>CULC Pal</a></li>
+                    <li id="b-2"><a>ConsensUS</a></li>
+                    <li id="b-3"><a>More</a></li>
+                </ul>
+                <a title="Works" class="active" id="a-1">
+                    <div id="projects"></div>
+                </a>
+            </li>
+            <li style="order:3;">
+                <a title="About and Contact" id="a-2">
+                    <div id="contact"></div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="fixed-wrapper"><div class="fixed"></div></div>
+    <div class="site-border">
+        <div class="wrapper">
+            <div class="ribbon">
+                <div class="label">Under Construction</div>
             </div>
         </div>
-     
-        <div class="layer" data-depth="0.4">
-            <div id="particles-js"></div>
-        </div>
-        <div class="layer" data-depth="0.3">
-            <div class="some-more-space content">
-                <p>Hello! I'm Qiaochu, a UX thinker who creates cool stuff with solid technology background, seeking for 2017 summer internship.
-                </p>
-                <p>
-                    I am busy working on something AWESOME. Stay tuned and wait for the surprise!
-                </p>
-                <p class="stress">
-                    Estimated Beta Release: Jan. 25, 2017
-                </p>
-                
-            
-            </div>
-            <div class="contact-link layer" data-depth="0.1">
-                <div class="a-container"><a href="resume-qiaochu.pdf" target="_blank">
-                
-                SEE MY RESUME AND CONTACT</a>
+    </div>
+    <main>
+        <div id="content">
+            <div id="project-landing" class="landing">
+                <div id="parallax">
+                    <div class="layer" data-depth="0.4">
+                        <div class="logo"></div>
+                    </div>
+                    <div class="layer" data-depth="0.5">
+                        <div class="glasses"></div>
+                    </div>
+                    <div class="layer" data-depth="0">
+                        <div class="line-1">
+                            hi I'm Qiaochu Mu -- UX thinker & coder
+                        </div>
+                    </div>
+                    <!--
+                    <div class="layer" data-depth="0.1">
+                        <div class="page-title">QIAOCHU</div>
+                    </div>
+-->
+                    <div class="layer" data-depth="0">
+                        <div class="page-description">
+                            <!--                            I'm Qiaochu Mu, a UX thinker who creates cool stuff. With solid technology background, my strength lies in UX design and front-end engineering. Now I am seeking for 2017 summer internship. Keep scrolling to check out my most recent projects.-->
+                            That's "chow-chew," as in food and a thing you do with food. My last name is not a greek alphabet and probably you'll never need to pronounce it. With solid technology background, my strength lies in UX design and front-end engineering. Keep scrolling to see my latest work.
+                            <div class='content'>
+                                <div class='visible'>
+                                    <p>I</p>
+                                    <ul>
+                                        <li>enjoy learning and hacking</li>
+                                        <li>code cool websites </li>
+                                        <li>design and play with Sketch</li>
+                                        <li>love solving problems for people</li>
+                                        <!--                                      <li></li>-->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vertical-line"></div>
+                    </div>
                 </div>
             </div>
-            
+            <!--   <a href="#" title="CULC PAL" >name="work" id="work"-->
+            <div id="project-culc" class="section">
+                <!--                    <div class="project-background-image culc">-->
+                <div class="project-title">CULC Pal
+                    <div class="project-role">
+                        CULC Pal is a kiosk application designed for students in Georgia Tech with the goal of enhancing their study space finding experience.
+                        <div class="rolesection">
+                            <p> <span class="tag">#</span> UX Research & Design <span class="tag">#</span> Web Development </p>
+                            <p> <span class="tag">#</span> CS 8803 Human-Computer Interaction @ GaTech</p>
+                            <p> <span class="tag">#</span> 8 ~ 12 / 2016</p>
+                        </div>
+                        <a href="under-construction.html" class="view-button">
+                            <i class="button__icon icon icon-eye-open"></i><span>VIEW PROJECT</span></a>
+                    </div>
+                </div>
+                <div class="project-description culc">
+                </div>
+                <!--                    </div>-->
+            </div>
+            <!--            </a>-->
+            <!--            <a href="#" title="TRUE SIGHT">-->
+            <div id="project-consensus" class="section">
+                <!--                    <div class="project-background-image ts">-->
+                <div class="project-title">ConsensUs
+                    <div class="project-role">
+                        ConsensUs is a web application as a group-decision-making tool to summarize complex group evaluation.
+                        <div class="rolesection">
+                            <p> <span class="tag">#</span> UI/UX Design <span class="tag">#</span> Web Development </p>
+                            <p> <span class="tag">#</span> ProtoLab @ Carnegie Mellon University</p>
+                            <p> <span class="tag">#</span> 6 ~ 8 / 2015</p>
+                        </div>
+                        <a href="under-construction.html" class="view-button">
+                            <i class="button__icon icon icon-eye-open"></i><span>VIEW PROJECT</span></a>
+                    </div>
+                </div>
+                <div class="project-description cs">
+                </div>
+                <!--                    </div>-->
+            </div>
+            <!--            </a>-->
+            <div id="more" class="section">
+                <div class="project-title"></div>
+                <div class="row">
+                    <div class="project-box">
+                        <a href="under-construction.html">
+                            <div class="image">
+                                <img src="img/more-1.png">
+                            </div>
+                            <h3 class="title">Blockchain as a Service</h3>
+                            <!--                                <p class="role">UX, UI, Development</p>                           -->
+                        </a>
+                    </div>
+                    <div class="project-box">
+                        <a href="under-construction.html">
+                            <div class="image">
+                                <img src="img/more-1.png">
+                            </div>
+                            <h3 class="title">True Sight</h3>
+                            <!--                                <p class="role">UX, UI, Development</p>                           -->
+                        </a>
+                    </div>
+                    <div class="project-box">
+                        <a href="under-construction.html">
+                            <div class="image">
+                                <img src="img/more-1.png">
+                            </div>
+                            <h3 class="title">World Terrorism</h3>
+                            <!--                                <p class="role">UX, UI, Development</p>                           -->
+                        </a>
+                    </div>
+                    <div class="project-box">
+                        <a href="under-construction.html">
+                            <div class="image">
+                                <img src="img/more-1.png">
+                            </div>
+                            <h3 class="title">BeatKcal</h3>
+                            <!--                                <p class="role">UX, UI, Development</p>                           -->
+                        </a>
+                    </div>
+                    <div class="project-box">
+                        <a href="under-construction.html">
+                            <div class="image">
+                                <img src="img/more-1.png">
+                            </div>
+                            <h3 class="title">Body Mirror</h3>
+                            <!--                                <p class="role">UX, UI, Development</p>                           -->
+                        </a>
+                    </div>
+                    <div class="project-box">
+                        <a href="under-construction.html">
+                            <div class="image">
+                                <img src="img/more-1.png">
+                            </div>
+                            <h3 class="title">Research: HCI one-stop-shop</h3>
+                            <!--                                <p class="role">UX, UI, Development</p>                           -->
+                        </a>
+                    </div>
+                    <div class="project-box">
+                        <a href="under-construction.html">
+                            <div class="image">
+                                <img src="img/more-1.png">
+                            </div>
+                            <h3 class="title">Research: Exercise & Well-being & Tweets</h3>
+                            <!--                                <p class="role">UX, UI, Development</p>                           -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="about">
+                <div id="photo-sec">
+                    <!--                    <p>me</p>-->
+                    <div id="me-img">
+                    </div>
+                </div>
+                <div id="about-sec">
+                    <h1></h1>
+                    <p>I'm a UX thinker/developer with solid technology background and passion for making joyful and useful things for people. Besides designing and hacking, I am a Guzheng player and love many sorts of art. </p> 
+                    <p>I'm an M.S.HCI student at Georgia Institute of Technology. Prior to that, I got a Master of Bioinformatics degree and a B.S. of Automation at Tsinghua University. Currently I am searching for an internship in summer 2017. </p>
+<!--                    <p>I like to solve design problems, create smart user interface and useful interaction, develope rich web experiences & web applications. </p>-->
+<!--                    <p>obsession?</p>-->
+                    <p>Thanks for stopping by.  Let's talk!</p>
+<!--
+                    <div class="a-container"><a href="resume-qiaochu.pdf" target="_blank">
+                
+                        SEE MY RESUME AND CONTACT</a>
+                    </div>
+-->
+                    <a href="resume-qiaochu.pdf" class="view-button">
+                            <i class="button__icon icon icon-eye-open"></i><span>SEE MY RESUME AND CONTACT</span></a>
+                </div>
+                
+            </div>
+            <div class="footer">
+            Design & Code by Qiaochu Mu © 2017 | Last Update: Jan. 25, 2017 </div>
         </div>
-
-
-    </div>
-    
-
-    
-  
-    
+    </main>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script> -->
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+ -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script> -->
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/ScrollToPlugin.js"></script>
     <script src="js/main.js"></script>
 </body>
 
