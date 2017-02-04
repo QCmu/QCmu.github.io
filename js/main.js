@@ -53,8 +53,8 @@
      var t = new TimelineMax;
      t.to(".logo", .15, { opacity: 0, scale: .7, y: -50, ease: Power4.easeOut })
          .to(".glasses", .15, { opacity: 0, scale: .7, y: -50, ease: Power4.easeOut }, "-=0.15")
-         .to(".line-1", .15, { opacity: 0, scale: .7,y: -50, ease: Power4.easeOut }, "-=0.15")
-         .to(".page-description", .15, { opacity: 0, scale: .7,y: -25, ease: Power4.easeOut }, "-=0.15")
+         .to(".line-1", .15, { opacity: 0, scale: .7, y: -50, ease: Power4.easeOut }, "-=0.15")
+         .to(".page-description", .15, { opacity: 0, scale: .7, y: -25, ease: Power4.easeOut }, "-=0.15")
          .to(".vertical-line", .25, { opacity: 0, height: "0", ease: Power4.easeOut });
 
      var o = new ScrollMagic.Scene({ duration: $(window).height() }).setTween(t).addTo(e)
