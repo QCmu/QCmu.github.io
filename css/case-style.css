@@ -485,6 +485,9 @@ header {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+#csus header{
+    background-image: url(../img/csus_header.png);
+}
 
 header h1 {
     font-size: 60px;
@@ -665,7 +668,7 @@ footer p{
 .tag {  
 background: #eee;
   border-radius: 3px 0 0 3px;
-  color: #999;
+  color: #555;
   display: inline-block;
   height: 26px;
   line-height: 26px;
@@ -674,7 +677,8 @@ background: #eee;
   margin: 0 10px 10px 0;
   text-decoration: none;
   -webkit-transition: color 0.2s;
-    font-size: 14px
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .tag::before {
@@ -709,6 +713,12 @@ background: #eee;
    border-left-color: #29D392; 
 }
 
+#csus .tag:hover{
+    background-color: #FA987D;
+}
+#csus .tag:hover::after {
+   border-left-color: #FA987D; 
+}
 
 .simple {
     padding: 104px 0 89px
@@ -774,7 +784,16 @@ background: #eee;
     color: #29D392;
     font-weight: bold;
 }
-
+#csus .research h2, #csus .design h2{
+    color: #FA987D;
+}
+#csus .solo{
+    padding-bottom: 0;
+}
+#csus .solo img{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
 
 .comments .box {
     display: none;
@@ -800,6 +819,10 @@ background: #eee;
 }
 .research .highlight{
     color: #29d392;
+}
+#csus .highlight{
+    color: #FA987D;
+    
 }
 .comments .box p {
     font-size: 14px;
@@ -831,14 +854,23 @@ background: #eee;
     -webkit-transition: box-shadow 0.3s ease, background-color 0.3s ease;
     transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
+#csus .tabs li{
+    background-color: rgba(250, 152, 125, 0.3);
+}
 
 .comments .tabs li:hover {
     background-color: #29d392;
+}
+#csus .tabs li:hover {
+    background-color: #FA987D;
 }
 
 .comments .tabs li.active {
     background-color: transparent;
     box-shadow: 0 0 0 2px #29d392;
+}
+#csus .tabs li.active {
+    box-shadow: 0 0 0 2px #FA987D;
 }
 
 .comments .tab {
@@ -884,13 +916,14 @@ background: #eee;
 }
 
 .video {
-    padding: 108px 0 116px
+    padding: 0px 0 116px
 }
 
 .video-block {
-    padding-top: 34px;
+    padding-top: 0px;
     margin: 0 auto 32px;
     max-width: 760px;
+    text-align: center;
 }
 
 .video-share-wrapper {
@@ -987,6 +1020,9 @@ background: #eee;
     color: #29D392;
 /*    margin-bottom: 29px;*/
 }
+#csus .discover-content h2 {
+    color: #FA987D;
+}
 
 .discover-button {
     padding-top: 28px;
@@ -1064,7 +1100,15 @@ background: #eee;
 .design{
     background-color: #29d392;
 }
-
+#csus .design{
+    background-color: #fa987d;
+}
+#csus .design h2{
+    color: white;
+}
+#csus .video{
+    padding-top: 100px;
+}
 /* sidebar --------------------------  */
 
 /* media --------------------------  */
@@ -1288,4 +1332,43 @@ background: #eee;
 footer > div > nav, footer > div > nav a{
     margin-top: 0;
     
+}
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace.pace-inactive .pace-progress {
+  display: none;
+}
+
+.pace .pace-progress {
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 0;
+  height: 5rem;
+  width: 5rem;
+
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  -ms-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.pace .pace-progress:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: .5rem;
+  content: attr(data-progress-text);
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  font-size: 5rem;
+  line-height: 1;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.19999999999999996);
 }
