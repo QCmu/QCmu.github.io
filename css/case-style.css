@@ -360,6 +360,13 @@ a:active {
     background: #0b97c3;
     border-color: #0b97c3;
 }
+#baas .button,#baas .button:hover,#baas .button:active{
+    border-color: #4178BE;
+}
+#baas .button:hover,#baas .button:active{
+    background-color: #4178BE;
+}
+
 
 a.button {
     text-decoration: none;
@@ -488,7 +495,9 @@ header {
 #csus header{
     background-image: url(../img/csus_header.png);
 }
-
+#baas header{
+    background-image: url(../img/baas_header.png);
+}
 header h1 {
     font-size: 60px;
     line-height: 60px;
@@ -719,6 +728,12 @@ background: #eee;
 #csus .tag:hover::after {
    border-left-color: #FA987D; 
 }
+#baas .tag:hover{
+    background-color: #4178BE;
+}
+#baas .tag:hover::after {
+   border-left-color: #4178BE; 
+}
 
 .simple {
     padding: 104px 0 89px
@@ -730,6 +745,9 @@ background: #eee;
     width: 420px;
 }
 
+#baas .main nav a{
+    color: #4178BE;
+}
 .simple-content h3 {
     font: 700 48px/48px "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
@@ -787,6 +805,9 @@ background: #eee;
 #csus .research h2, #csus .design h2{
     color: #FA987D;
 }
+#baas .research h2, #baas .design h2{
+    color: #4178be;
+}
 #csus .solo{
     padding-bottom: 0;
 }
@@ -794,7 +815,24 @@ background: #eee;
     margin-top: 20px;
     margin-bottom: 0;
 }
-
+#baas .solo h2{
+    color: #4178BE;
+}
+#baas .solo img{
+    width: 30%;
+}
+#baas .solo2 {
+    background-color: white;
+}
+#baas .solo2 img{
+    width: 70%;
+}
+#baas .solo2 .slideshow{
+    
+}
+#baas .solo2 .discover-img-inside{
+    margin: 0 auto;
+}
 .comments .box {
     display: none;
     padding: 0 195px 55px;
@@ -829,7 +867,16 @@ background: #eee;
     line-height: 20px;
     font-weight: 300;
 }
-
+#baas .box img{
+    width: 90%;
+    box-shadow: 0 0 0 10px rgba(0,155, 0, 0.02);   
+}
+#baas .design a{
+    color: white;
+    font-weight: 600;
+    text-decoration-line: underline !important;
+    text-decoration-color: aliceblue !important;
+}
 .comments .tabs {
     display: block;
     text-align: center;
@@ -857,6 +904,9 @@ background: #eee;
 #csus .tabs li{
     background-color: rgba(250, 152, 125, 0.3);
 }
+#baas .tabs li{
+     background-color: rgba(65, 120, 190, 0.3);
+}
 
 .comments .tabs li:hover {
     background-color: #29d392;
@@ -864,13 +914,18 @@ background: #eee;
 #csus .tabs li:hover {
     background-color: #FA987D;
 }
-
+#baas .tabs li:hover {
+    background-color: #4178be;
+}
 .comments .tabs li.active {
     background-color: transparent;
     box-shadow: 0 0 0 2px #29d392;
 }
 #csus .tabs li.active {
     box-shadow: 0 0 0 2px #FA987D;
+}
+#baas .tabs li.active {
+    box-shadow: 0 0 0 2px #4178be;
 }
 
 .comments .tab {
@@ -1023,7 +1078,9 @@ background: #eee;
 #csus .discover-content h2 {
     color: #FA987D;
 }
-
+#baas .discover-content h2 {
+    color: #4178be;
+}
 .discover-button {
     padding-top: 28px;
     padding-left: 15px;
@@ -1104,6 +1161,12 @@ background: #eee;
     background-color: #fa987d;
 }
 #csus .design h2{
+    color: white;
+}
+#baas .design{
+    background-color: #4178be;
+}
+#baas .design h2{
     color: white;
 }
 #csus .video{
@@ -1285,7 +1348,7 @@ background: #eee;
   }
 }
 
-#slideshow {
+.slideshow {
 /*  margin: 80px auto;*/
   position: relative;
   width: 634;
@@ -1294,11 +1357,11 @@ background: #eee;
 /*  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);*/
 }
 
-#slideshow > div {
+.slideshow > div {
   position: absolute;
     
 }
-#slideshow > div > img{
+.slideshow > div > img{
 /*    background-size: contain;*/
     width: 576px;
 }
@@ -1350,7 +1413,7 @@ footer > div > nav, footer > div > nav a{
   position: fixed;
   z-index: 2000;
   top: 0;
-  right: 0;
+  left: 0;
   height: 5rem;
   width: 5rem;
 
@@ -1363,12 +1426,12 @@ footer > div > nav, footer > div > nav a{
   display: block;
   position: absolute;
   top: 0;
-  right: .5rem;
+  left: .5rem;
   content: attr(data-progress-text);
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 100;
   font-size: 5rem;
   line-height: 1;
   text-align: right;
-  color: rgba(255, 255, 255, 0.19999999999999996);
+  color: rgba(255, 255, 255, 0.7);
 }

@@ -489,7 +489,7 @@ main {
     font-size: 1em;
     color: #555;
     line-height: 0.5em;
-    /*    margin-top: 40px;*/
+        margin-top: 1.5em;
     /*background-color: #fff;*/
 }
 
@@ -650,6 +650,15 @@ main {
     overflow: visible;
     min-height: calc(100vh - 100px);
     max-width: calc(100vw -100px) !important;
+}
+#more h3{
+    margin-bottom: 5px;
+    font-weight: 900;
+    color: #222;
+}
+#more p{
+    margin: 0;
+    color: #222;
 }
 
 .project-description {
@@ -836,9 +845,11 @@ main {
     text-align: center;
 }
 
-.role {}
+.role {
+    margin-top: 0;
+}
 
-.project-box:hover .title {
+.project-box:hover .title, .project-box:hover .role {
     opacity: 1;
     color: #5d5d5d;
 }
@@ -1335,4 +1346,8 @@ nav ul li a div#contact {
   line-height: 1;
   text-align: right;
   color: rgba(255, 104, 126, 0.19999999999999996);
+}
+.bold{
+    font-weight: 500;
+    color: #ff888b;
 }

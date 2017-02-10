@@ -32,15 +32,15 @@ $(document).ready(function(){
             return false;
         });
     }
-$("#slideshow > div:gt(0)").hide();
+$(".slideshow > div:gt(0)").hide();
 
 setInterval(function() {
-  $('#slideshow > div:first')
+  $('.slideshow > div:first')
     .fadeOut(1000)
     .next()
     .fadeIn(1000)
     .end()
-    .appendTo('#slideshow');
+    .appendTo('.slideshow');
 }, 3000);
     //------------------------------------------------------------------------//
 
