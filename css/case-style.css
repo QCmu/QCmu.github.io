@@ -369,7 +369,7 @@ a:active {
 #infovis .button,#baas .button:hover,#infovis .button:active{
     border-color: #e21010;
 }
-#infovis .button:hover,#baas .button:active{
+#infovis .button:hover,#infovis .button:active{
     background-color: #e21010;
 }
 
