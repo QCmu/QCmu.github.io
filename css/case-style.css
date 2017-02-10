@@ -366,6 +366,12 @@ a:active {
 #baas .button:hover,#baas .button:active{
     background-color: #4178BE;
 }
+#infovis .button,#baas .button:hover,#infovis .button:active{
+    border-color: #e21010;
+}
+#infovis .button:hover,#baas .button:active{
+    background-color: #e21010;
+}
 
 
 a.button {
@@ -497,6 +503,9 @@ header {
 }
 #baas header{
     background-image: url(../img/baas_header.png);
+}
+#infovis header{
+    background-image: url(../img/infovis_header.jpg);
 }
 header h1 {
     font-size: 60px;
@@ -733,6 +742,12 @@ background: #eee;
 }
 #baas .tag:hover::after {
    border-left-color: #4178BE; 
+}
+#infovis .tag:hover{
+    background-color: #e21010;
+}
+#infovis .tag:hover::after {
+   border-left-color: #e21010; 
 }
 
 .simple {
