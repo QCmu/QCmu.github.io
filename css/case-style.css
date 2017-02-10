@@ -507,6 +507,9 @@ header {
 #infovis header{
     background-image: url(../img/infovis_header.jpg);
 }
+#bk header{
+    background-image: url(../img/bk_header.png);
+}
 header h1 {
     font-size: 60px;
     line-height: 60px;
