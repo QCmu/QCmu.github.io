@@ -272,6 +272,7 @@ main {
     -webkit-transition: .15s ease-out 0s;
     transition: .15s ease-out 0s;
     opacity: 0;
+    color:#727979;
 }
 
 .line-1 {
@@ -296,7 +297,7 @@ main {
     /*  font-size: 35px;*/
     line-height: 40px;
     /*  font-family: 'Lato', sans-serif;*/
-    color: #5b5b5b;
+    color: #727979;
     /*  height: 160px;*/
     overflow: hidden;
 }
