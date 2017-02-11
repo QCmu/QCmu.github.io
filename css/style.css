@@ -449,14 +449,14 @@ main {
 .vertical-line {
     width: 1px;
     height: 0;
-    /*background-color: #CECECE;*/
+/*    background-color: #CECECE;*/
     display: block;
     z-index: 2;
     position: absolute;
     top: 85%;
     left: 50%;
     /* Combined Shape: */
-    background-image: linear-gradient(0deg, #FCAFAF 25%, #FE667B 76%);
+    background-image: linear-gradient(0deg, #fcafaf 25%, #cecece 76%);
     /*opacity: 0*/
 }
 
