@@ -282,7 +282,7 @@ main {
     font-size: 3em;
     z-index: 999;
 /*    color: #5d5d5d;*/
-    color: #ff8080;
+    color: #ffacac;
     font-weight: 600;
 }
 
@@ -1355,5 +1355,5 @@ nav ul li a div#contact {
 }
 .bold{
     font-weight: 500;
-    color: #ff888b;
+    color: #FCAFAF;
 }
