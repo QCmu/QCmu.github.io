@@ -267,9 +267,13 @@ body {
 .wrap {
     margin: 0 auto;
     padding: 0 15px;
-    max-width: 1140px;
+    max-width: 1040px;
 }
-
+.wrap p{
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
 a {
     color: #10bbf1;
     cursor: pointer;
@@ -641,7 +645,8 @@ footer p{
 }
 
 .promo-wrapper {
-    margin: 0 -15px
+    margin: 0 auto;
+    max-width: 900px;
 }
 .promo >.wrap > p {
     font-size: 14px;
@@ -673,7 +678,10 @@ footer p{
 
 /*tags*/
 .tag-wrapper{
+    margin: 0 auto;
     margin-top: 20px;
+    max-width: 900px;
+    
 }
 .tags {
   list-style: none;
@@ -725,7 +733,7 @@ background: #eee;
   top: 0;
 }
 
-.tag:hover {
+.tag{
   background-color: #29D392;
   color: white;
 }
@@ -734,22 +742,22 @@ background: #eee;
    border-left-color: #29D392; 
 }
 
-#csus .tag:hover{
+#csus .tag{
     background-color: #FA987D;
 }
-#csus .tag:hover::after {
+#csus .tag:after {
    border-left-color: #FA987D; 
 }
-#baas .tag:hover{
+#baas .tag{
     background-color: #4178BE;
 }
-#baas .tag:hover::after {
+#baas .tag:after {
    border-left-color: #4178BE; 
 }
-#infovis .tag:hover{
+#infovis .tag{
     background-color: #e21010;
 }
-#infovis .tag:hover::after {
+#infovis .tag:after {
    border-left-color: #e21010; 
 }
 
@@ -925,7 +933,17 @@ background: #eee;
 #baas .tabs li{
      background-color: rgba(65, 120, 190, 0.3);
 }
-
+.commentsp.box{
+    max-width:900px;
+    padding-left:  0;
+    padding-right: 0;
+    margin: 0 auto;
+}
+.commentsp p{
+    text-align: left;
+    text-decoration: none;    
+    padding-top: 20px;
+}
 .comments .tabs li:hover {
     background-color: #29d392;
 }
