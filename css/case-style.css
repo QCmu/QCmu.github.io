@@ -733,12 +733,12 @@ background: #eee;
   top: 0;
 }
 
-.tag{
+.tag,.tag:hover{
   background-color: #29D392;
   color: white;
 }
 
-.tag:hover::after {
+.tag:after {
    border-left-color: #29D392; 
 }
 
