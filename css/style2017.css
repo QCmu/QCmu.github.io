@@ -40,17 +40,17 @@ a:visited {
 }
 
 ::-moz-selection {
-    background: #5A5CCE;
+    background: #FF8B8B;
     color: #ffffff
 }
 
 ::selection {
-    background: #5A5CCE;
+    background: #FF8B8B;
     color: #ffffff
 }
 
 ::-moz-selection {
-    background: #5A5CCE;
+    background: #FF8B8B;
     color: #ffffff
 }
 
@@ -246,7 +246,7 @@ main {
     position: relative;
     top: 35%;
     opacity: 1;
-    color: #5A5CCE;
+    color: #FF8B8B;
 }
 
 @media screen and (max-width: 767px) {
@@ -272,7 +272,7 @@ main {
     -webkit-transition: .15s ease-out 0s;
     transition: .15s ease-out 0s;
     opacity: 0;
-    color:#676767;
+    color:#727979;
 }
 .page-description.nor{
 /*    font-size: 1.8em;*/
@@ -280,14 +280,13 @@ main {
 }
 
 .line-1 {
-    font-family:'Bauhaus-Boldffd0b4efb32a8';
     text-align: center;
     position: relative;
     top: 20%;
-    font-size: 6em;
+    font-size: 3em;
     z-index: 999;
 /*    color: #5d5d5d;*/
-    color: #5A5CCE;
+    color: #fcafaf;
     font-weight: 600;
 }
 
@@ -302,7 +301,7 @@ main {
     /*  font-size: 35px;*/
     line-height: 40px;
     /*  font-family: 'Lato', sans-serif;*/
-/*    color: #727979;*/
+    color: #727979;
     /*  height: 160px;*/
     overflow: hidden;
 }
@@ -331,7 +330,7 @@ main {
 .visible:before {
     position: absolute;
     top: 0;
-    color: #5A5CCE;
+    color: #ff888b;
     font-size: 42px;
     -webkit-animation-name: opacity;
     -webkit-animation-duration: 2.5s;
@@ -461,7 +460,7 @@ main {
     top: 85%;
     left: 50%;
     /* Combined Shape: */
-    background-image: linear-gradient(0deg, #5A5CCE 25%, #cecece 76%);
+    background-image: linear-gradient(0deg, #fcafaf 25%, #cecece 76%);
     /*opacity: 0*/
 }
 
@@ -502,7 +501,7 @@ main {
 }
 
 .tag {
-    color: #5A5CCE;
+    color: #FF8B8B;
     font-size: 1.5em
 }
 
@@ -525,7 +524,7 @@ main {
     -moz-osx-font-smoothing: grayscale;
     color: #888;
     border: 1px solid;
-    border-color: #5A5CCE;
+    border-color: #ff888b;
     margin-top: 1em;
     padding: 0.4em 30px 0.4em 50px;
     overflow: hidden;
@@ -571,8 +570,8 @@ main {
 }
 
 .view-button:hover {
-    background: #5A5CCE;
-    border-color: #5A5CCE;
+    background: #ff888b;
+    border-color: #ff888b;
     color: #fff;
 }
 
@@ -586,7 +585,7 @@ main {
     .view-button{
         display: block;
         background-color: antiquewhite;
-        color: #5A5CCE !important;
+        color: #ff8b8b !important;
     }
 }
 */
@@ -630,33 +629,30 @@ main {
 .project-title::before,
 #about-sec h1::before {
     content: 'Case Study';
-    color: #5A5CCE;
-    font-size: 24px;
+    color: #fcafaf;
+    font-size: 17px;
     font-weight: 100;
-/*    width: 80px;*/
-    height:0px;
+    width: 85px;
+    height: 3px;
     margin-bottom: 40px;
     display: block;
-    margin-top: 1px;
 /*    background-color: #FE667B;*/
     -webkit-transition: .4s ease-out 0s;
     transition: .4s ease-out 0s;
 /*
-    background-image: -webkit-linear-gradient(left, #5A5CCE 25%, #FE667B 76%);
-    background-image: -o-linear-gradient(left, #5A5CCE 25%, #FE667B 76%);
-    background-image: linear-gradient(to right, #5A5CCE 25%, #FE667B 76%);
+    background-image: -webkit-linear-gradient(left, #FCAFAF 25%, #FE667B 76%);
+    background-image: -o-linear-gradient(left, #FCAFAF 25%, #FE667B 76%);
+    background-image: linear-gradient(to right, #FCAFAF 25%, #FE667B 76%);
 */
-    background-color: #5A5CCE;
+    background-color: #FCAFAF;
 }
 
 #more > .project-title::before {
-    content: ' My Works';
-    font-family:'Bauhaus-Boldffd0b4efb32a8';
+    content: ' PORTFOLIO';
 }
 
 #about-sec h1::before {
-    font-family:'Bauhaus-Boldffd0b4efb32a8';
-    content: ' About Me';
+    content: ' ABOUT ME';
 }
 
 #more {
@@ -909,7 +905,7 @@ main {
     float: left;
     position: relative;
     padding-top: 100px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #me-img {
@@ -966,7 +962,7 @@ main {
     transition: .1s transform linear, .2s height linear .3s;
     transform: translateX(0);
     height: 100%;
-    border-color: #5A5CCE;
+    border-color: #FCAFAF;
 }
 
 #me-img:hover:after {
@@ -1084,7 +1080,7 @@ nav ul li a {
 }
 
 .inner-nav li a:hover {
-    color: #5A5CCE;
+    color: #ff888b;
 }
 
 @media screen and (max-width: 767px) {
@@ -1108,7 +1104,7 @@ nav ul li a::after {
     transform: translateY(0%);
     font-family: "Titillium Web", Helvetica, sans-serif;
     font-weight: 700;
-    color: #5A5CCE;
+    color: #FF8B8B;
     font-size: 1.2em;
     line-height: 1.6em;
     text-transform: uppercase;
@@ -1125,7 +1121,7 @@ nav ul li a::after {
 }
 
 nav ul li a:hover::after {
-    color: #5A5CCE;
+    color: #FF8B8B;
     left: 60px;
     -webkit-transition: .25s ease-out .35s;
     transition: .25s ease-out .35s;
@@ -1142,7 +1138,7 @@ nav ul li a[title="About and Contact"]::after {
 }
 
 nav ul li a.active div {
-    background-color: #5A5CCE;
+    background-color: #FF8B8B;
     -webkit-transition: .25s ease-in 0s;
     transition: .25s ease-in 0s
 }
@@ -1170,7 +1166,7 @@ nav ul li a div::before {
     z-index: 10;
     position: absolute;
     left: -25px;
-    background-color: #5A5CCE;
+    background-color: #FCAFAF;
     -webkit-transition: .25s ease-out .15s;
     transition: .25s ease-out .15s
 }
@@ -1285,13 +1281,12 @@ nav ul li a div#contact {
     top: 40px;
     width: 250px;
     padding: 10px 0;
-    font-family:'Bauhaus-Boldffd0b4efb32a8' !important;
+    font-family: Sans-Serif;
     font-size: 15px;
     font-weight: bold;
     text-align: center;
     color: #fff;
-    background-color: #5A5CCE
-        ;
+    background-color: #ff888b;
     -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
     -ms-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
@@ -1368,5 +1363,5 @@ nav ul li a div#contact {
 }
 .bold{
     font-weight: 500;
-    color: #5A5CCE;
+    color: #FCAFAF;
 }
