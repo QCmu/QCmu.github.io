@@ -122,14 +122,14 @@ main {
 #project-landing .logo {
     z-index: 1;
     display: block;
-    width: 24em;
-    height: 24em;
+    width: 30em;
+    height: 30em;
     background: url("../img/03.png");
     /*//logo.svg*/
     background-size: cover;
     position: absolute;
     top: 15%;
-    left: calc(50% - 12em);
+    left: calc(50% - 15em);
     opacity: 0;
 }
 
@@ -140,8 +140,8 @@ main {
     background: url("../img/glasses.svg");
     background-size: cover;
     position: absolute;
-    top: calc(15% + 10em);
-    left: calc(50% - 5em);
+    top: calc(15% + 13em);
+    left: calc(50% - 4.2em);
     opacity: 1;
 }
 
@@ -262,17 +262,21 @@ main {
 /*    width: 50%;*/
     display: block;
     margin: 0 auto;
-    padding: 4em;
+    padding: 3em 8em;
     position: relative;
     top: 40%;
     clear: both;
     /*background-color: #efefef;*/
-    font-size: 1.5em;
+    font-size: 1.9em;
     z-index: 3;
     -webkit-transition: .15s ease-out 0s;
     transition: .15s ease-out 0s;
     opacity: 0;
     color:#727979;
+}
+.page-description.nor{
+/*    font-size: 1.8em;*/
+    
 }
 
 .line-1 {
@@ -293,7 +297,7 @@ main {
     top: 89%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5em;
+/*    font-size: 1.5em;*/
     /*  font-size: 35px;*/
     line-height: 40px;
     /*  font-family: 'Lato', sans-serif;*/
@@ -628,7 +632,7 @@ main {
     color: #fcafaf;
     font-size: 17px;
     font-weight: 100;
-    width: 80px;
+    width: 85px;
     height: 3px;
     margin-bottom: 40px;
     display: block;
@@ -644,11 +648,11 @@ main {
 }
 
 #more > .project-title::before {
-    content: 'More Work';
+    content: ' PORTFOLIO';
 }
 
 #about-sec h1::before {
-    content: ' About Me';
+    content: ' ABOUT ME';
 }
 
 #more {
@@ -802,7 +806,7 @@ main {
     -ms-flex-preferred-size: 30%;
     -webkit-flex-basis: 30%;
     flex-basis: 30%;
-    max-width: 30%;
+    max-width: 33%;
     padding-left: 1%;
     padding-right: 1%;
 }
@@ -845,12 +849,16 @@ main {
 .role {
     color: #5d5d5d;
     opacity: .5;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     transition: all .2s ease;
     text-align: center;
 }
-
+.project-box .title{
+    opacity: 1;
+    font-size: 16px;
+    margin-top: 12px;   
+}
 .role {
     margin-top: 0;
 }
@@ -865,7 +873,7 @@ main {
 }
 
 .project-box .image {
-    height: 120px;
+    height: 140px;
     background-color: #f3f3f3;
     display: -webkit-flex;
     display: -ms-flexbox;
