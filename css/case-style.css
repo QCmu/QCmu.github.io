@@ -514,6 +514,9 @@ header {
 #bk header{
     background-image: url(../img/bk_header.png);
 }
+#nng header{
+    background-image: url(../img/nng_header.png);
+}
 header h1 {
     font-size: 60px;
     line-height: 60px;
