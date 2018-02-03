@@ -70,6 +70,18 @@
      })
      .setTween(x).addTo(e);
      
+     var pp = new TimelineMax;
+     $(".project-box").each(function(){
+         pp.fromTo($(this), 0.7, { opacity: 0, y: 10 }, { opacity: 1, y: 0, ease: Power4.easeOut }, "-=0.5")
+     });
+     
+     var scene = new ScrollMagic.Scene({
+         triggerElement:"#more"
+     })
+     .setTween(pp).addTo(e);
+     
+     
+     
 
      var o = new ScrollMagic.Scene({ duration: $(window).height() }).setTween(t).addTo(e);
      

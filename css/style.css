@@ -913,11 +913,12 @@ main {
 
 #about-sec {
     /*    height: 100%;*/
-    width: calc(50% - 40px);
+    width: calc(50% - 100px);
     float: left;
     position: relative;
     padding-top: 100px;
     font-size: 16px;
+    color: #808080;
 }
 
 #me-img {
