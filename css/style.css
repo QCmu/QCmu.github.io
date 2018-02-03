@@ -934,7 +934,7 @@ main {
     left: calc(50% - 150px);
     overflow: hidden;
 }
-
+/*
 #me-img:before {
     box-sizing: border-box;
     transform: translateX(100%);
@@ -983,7 +983,7 @@ main {
     height: 100%;
     border-color: #FE667B;
 }
-
+*/
 
 @media screen and (max-width: 767px) {
     #me-img, #photo-sec{

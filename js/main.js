@@ -46,10 +46,14 @@
 //         t.fromTo("#" + $(this).attr("id") + " .project-background-image", 1, { opacity: 0, y: -25 }, { opacity: 1, y: 0, ease: Power4.easeOut })
              t.fromTo("#" + $(this).attr("id") + " .project-title", 1, { opacity: 0 }, { opacity: 1, ease: Power4.easeOut })
 //             .fromTo("#" + $(this).attr("id") + " .project-type", .75, { opacity: 0}, { opacity: 1, ease: Power4.easeOut }, "-=0.75")
-             .fromTo("#" + $(this).attr("id") + " .project-description", .75, { opacity: 0, x: 50 }, { opacity: 1, x: 0, ease: Power4.easeOut });
-         var o = new ScrollMagic.Scene({ triggerElement: "#" + $(this).attr("id"), duration: .3 * $(window).height(), offset: -100 }).addTo(e).setTween(t)
+             .fromTo("#" + $(this).attr("id") + " .project-description", .75, { opacity: 0, x: 50 }, { opacity: 1, x: 0, ease: Power4.easeOut })
+             ////2018////
+            
+             
+             ;
+//         var o = new ScrollMagic.Scene({ triggerElement: "#" + $(this).attr("id"), duration: .3 * $(window).height(), offset: -100 }).addTo(e).setTween(t)
      });
-
+          
      var t = new TimelineMax;
      t.to(".logo", .15, { opacity: 0, scale: .7, y: -50, ease: Power4.easeOut })
          .to(".glasses", .15, { opacity: 0, scale: .7, y: -50, ease: Power4.easeOut }, "-=0.15")
@@ -57,7 +61,18 @@
          .to(".page-description", .15, { opacity: 0, scale: .7, y: -25, ease: Power4.easeOut }, "-=0.15")
          .to(".vertical-line", .25, { opacity: 0, height: "0", ease: Power4.easeOut });
 
-     var o = new ScrollMagic.Scene({ duration: $(window).height() }).setTween(t).addTo(e)
+     ////2018////
+     var x = new TimelineMax;
+     x.fromTo("#photo-sec", 2, { opacity: 0, y: 30 }, { opacity: 1, y: 0, ease: Power4.easeOut })
+     .fromTo("#about-sec", 0.5, { opacity: 0, y: 30 }, { opacity: 1, y: 0, ease: Power4.easeOut }, "-=2.15");
+     var scene = new ScrollMagic.Scene({
+         triggerElement:"#about"
+     })
+     .setTween(x).addTo(e);
+     
+
+     var o = new ScrollMagic.Scene({ duration: $(window).height() }).setTween(t).addTo(e);
+     
  }
 
 function smoothScrollToAnchor() {
