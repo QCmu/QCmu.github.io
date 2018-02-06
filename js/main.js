@@ -129,6 +129,17 @@ $("#contact").click(function() {
 }
 
 function scrollSpy(){
+    var e = new ScrollMagic.Controller;
+    var x = new TimelineMax;
+    var temp=$( "a[title='About and Contact']");
+    x.set(temp, {className:"+=active"});
+     var temp=$( "a[title='Works']");
+    x.set(temp, {className:"-=active"});
+
+     var scene = new ScrollMagic.Scene({
+         triggerElement:"#about"
+     })
+     .setTween(x).addTo(e);
     
 }
 
