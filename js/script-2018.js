@@ -50,6 +50,9 @@
         $("#Item_7").click(function() {
         TweenMax.to(window, 2, { scrollTo: { y: $('#Content_7').position().top }, ease: Power2.easeOut });
  });
+        $("#return-to-top").click(function() {
+        TweenMax.to(window, 2, { scrollTo: { y: $('body,html').position().top }, ease: Power2.easeOut });
+ });
         
     }
     
@@ -127,11 +130,51 @@
          triggerElement:"#Content_7"
      })
      .setTween(x).addTo(e);
+        
+    
+//    x = new TimelineMax;
+//    var temp=$( "#return-to-top");
+//    //x.set(temp, {className:"-=return-fixed"});
+//    //x.set(temp, {className:"+=not-fixed"});
+//  //  x.set(temp, {className:"+=nnnnn"})
+//    var scene = new ScrollMagic.Scene({
+//        triggerElement:"#thank-sec",
+//        triggerHook:"onEnter"
+//     })
+//     .setTween(x).addTo(e);
+//        
+        
+        
+        
+    $(window).scroll(function() {
+        console.log($(document).height()-$(this).scrollTop()-$(window).height());
+        
+          //console.log($(this).scrollTop());
+        
+    if ($(this).scrollTop() >= 50 && $(document).height()-$(this).scrollTop()-$(window).height() >=200) {    // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(300);       // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(100);      // Else fade out the arrow
+    }
+     
+});
+
+        
     
 }
+    
+    function scrollToTop(){
+
+//$('#top').click(function() {            // When arrow is clicked
+//    $('body,html').animate({
+//        scrollTop : 0                   // Scroll to top of body
+//    }, 500);
+//});
+    }
 
 	init();
     scrollTo();
     scrollSpy();
+    scrollToTop();
 
 })(window);

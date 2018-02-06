@@ -604,7 +604,7 @@ footer {
     text-align: center;
     font-size: 14px;
     line-height: 20px;
-    padding: 30px 0;
+    padding: 16px 0;
 /*    text-align: center;*/
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -939,6 +939,9 @@ background: #eee;
 }
 .research .highlight,#culc .highlight {
     color: #29d392;
+}
+.highlight a{
+    color: #5a5ace;
 }
 #csus .highlight{
     color: #FA987D;
@@ -1941,7 +1944,7 @@ ul.findings{
 	transform: scale3d(1.6,1.6,1);
 }
 
-/*.nav--zahi .nav__item:not(.nav__item--current):focus::after,*/
+/*.nav--zahi .nav__item:not(.nav__item--current):f#topocus::after,*/
 .nav--zahi .nav__item:not(.nav__item--current):hover::after {
 	border-color: #5a5cce;
 	background: #fff;
@@ -1968,4 +1971,82 @@ ul.findings{
 .nav--zahi .nav__item--current .nav__item-title {
 	opacity: 1;
 	color: #5a5cce;
+}
+
+
+
+
+/*retunn to top*/
+.not-fixed{
+    position: relative !important;
+    float: right;
+    right: 8em;
+}
+.return-fixed{
+    position: fixed;
+    bottom: 2em;
+    right: 8em;
+}
+.return-to-top{
+
+/*    position: -webkit-sticky;*/
+/*    position: sticky;*/
+/*    float: right;*/
+    background: #5a5cce;
+    background: rgba(90, 92, 206, 0.3);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.return-to-top i{
+    float: none;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 50px;
+    vertical-align: middle;
+/*
+    position: relative;
+    left: 17px;
+    top: 12px;
+*/
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.not-fixed i{
+    ;
+    
+}
+.nnnnn{
+    background-color: aqua!important;
+    display: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.return-to-top:hover{
+    background: rgba(90, 92, 206, 0.5);
+/*    background: #fff;*/
+/*    border-color: #5a5cce;*/
+/*    border: 2px solid;*/
+}
+.return-to-top:hover i{
+    color: #5a5cce;
+    top: 8px;
+/*    left: 14px;*/
 }
