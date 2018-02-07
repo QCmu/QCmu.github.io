@@ -150,7 +150,7 @@
     $(window).scroll(function() {
         //console.log($(document).height()-$(this).scrollTop()-$(window).height());
         //console.log($(document).height()-$(this).scrollTop()-$(window).height());
-            if ($(this).scrollTop() >= 50 && $(document).height()-$(this).scrollTop()-$(window).height() >=200) {    // If page is scrolled more than 50px
+            if ($(this).scrollTop() >= 20 && $(document).height()-$(this).scrollTop()-$(window).height() >=200) {    // If page is scrolled more than 50px
                 $('#return-to-top').fadeIn(300);       // Fade in the arrow
             } else {
                 $('#return-to-top').fadeOut(100);      // Else fade out the arrow
