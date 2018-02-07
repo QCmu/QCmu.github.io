@@ -145,37 +145,59 @@
 //        
         
         
-        
+       //const mq=window.matchMedia("max-width: 900px");
+    //if( !mq.matches){ 
     $(window).scroll(function() {
-        console.log($(document).height()-$(this).scrollTop()-$(window).height());
+        //console.log($(document).height()-$(this).scrollTop()-$(window).height());
+        //console.log($(document).height()-$(this).scrollTop()-$(window).height());
+            if ($(this).scrollTop() >= 50 && $(document).height()-$(this).scrollTop()-$(window).height() >=200) {    // If page is scrolled more than 50px
+                $('#return-to-top').fadeIn(300);       // Fade in the arrow
+            } else {
+                $('#return-to-top').fadeOut(100);      // Else fade out the arrow
+            }
         
-          //console.log($(this).scrollTop());
-        
-    if ($(this).scrollTop() >= 50 && $(document).height()-$(this).scrollTop()-$(window).height() >=200) {    // If page is scrolled more than 50px
-        $('#return-to-top').fadeIn(300);       // Fade in the arrow
-    } else {
-        $('#return-to-top').fadeOut(100);      // Else fade out the arrow
-    }
      
-});
+    });
+        
+    //}
 
         
     
 }
     
-    function scrollToTop(){
+//    function mediaqueryresponse(mql){
+//     if (mql.matches){ // if media query matches
+//
+//      // phone
+//        $(".front-page-1").backstretch(["/wp-content/themes/digital-pro/images/americas-tribute-to-paris-mobile.png"]);
+//
+//    } else {
+//
+//      //tab or desktop
+//        $(".front-page-1").backstretch([BackStretchImg.src]);
+//
+//     }
+        
+//    function checkScreenWidth(){
+//
+//
+//var mql = window.matchMedia("(max-width: 800px)")
+//
+//mediaqueryresponse(mql) // call listener function explicitly at run time
+//
+//mql.addListener(mediaqueryresponse) // attach listener function to listen in on state changes
+//
+//
+//}
 
-//$('#top').click(function() {            // When arrow is clicked
-//    $('body,html').animate({
-//        scrollTop : 0                   // Scroll to top of body
-//    }, 500);
-//});
-    }
 
 	init();
     scrollTo();
     
-    scrollToTop();
+    //scrollToTop();
     scrollSpy();
+    
+    
+    
 
 })(window);

@@ -518,6 +518,10 @@ header {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+header.with-hd-pic{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 #csus header{
     background-image: url(../img/csus_header.png);
 }
@@ -1278,9 +1282,27 @@ background: #eee;
 /* media --------------------------  */
 
 /* ===[ Responsive all mobile sizes ]=== */
-
+@media (max-width:1250px){
+.sidebar{
+        display: none;
+    }
+.return-to-top{
+        display: none !important;
+    }
+    
+    
+}
 @media (max-width: 979px) { 
-  .newsletter-form {
+  /*2018*/
+
+    
+    
+    
+    
+    
+    /*2017*/
+
+    .newsletter-form {
       min-width: 0
   }
 
@@ -1305,7 +1327,7 @@ background: #eee;
   }
 
   header h1 {
-      font-size: 46px;
+/*      font-size: 46px;*/
       line-height: 52px;
   }
 
@@ -1313,12 +1335,13 @@ background: #eee;
 /*      margin-bottom: 20px*/
   }
 
+/* 2018
   .promo-column {
       width: auto;
       max-width: 290px;
       margin-left: auto;
       margin-right: auto;
-      float: none;
+      float: left;
       text-align: center;
   }
 
@@ -1326,6 +1349,7 @@ background: #eee;
       margin-left: auto;
       margin-right: auto;
   }
+*/
 
   .simple-content {
       float: none;
@@ -1422,16 +1446,37 @@ background: #eee;
 }
 
 /* ===[ Responsive just mobile portrait ]=== */
+.too-small{
+    height: 100%;
+    padding-top: 30%;
+    background-color: #5a5cce;
+    color: aliceblue;
+    vertical-align: middle;
+    overflow: hidden;
+    display: none;
+}
 
 @media (max-width: 479px) { 
+    .main{
+        display: none;
+    }
+    .too-small{
+        display: block;
+    }
+    
   header .buttons-wrapper .button.button-stripe {
       margin-left: 0
   }
+    nav a{
+        float: none;
+        
+    }
 
   .discover-content h2 {
       font-size: 36px;
       line-height: 46px;
   }
+  
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { 
@@ -2049,4 +2094,13 @@ ul.findings{
     color: #5a5cce;
     top: 8px;
 /*    left: 14px;*/
+}
+
+
+
+
+/*head picture*/
+
+.hd-pic-sec{
+    margin-top: -80px;
 }
