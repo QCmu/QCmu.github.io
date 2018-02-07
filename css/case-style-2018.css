@@ -1446,30 +1446,18 @@ background: #eee;
 }
 
 /* ===[ Responsive just mobile portrait ]=== */
-.too-small{
-    height: 100%;
-    padding-top: 30%;
-    background-color: #5a5cce;
-    color: aliceblue;
-    vertical-align: middle;
-    overflow: hidden;
-    display: none;
-}
 
-@media (max-width: 479px) { 
-    .main{
-        display: none;
-    }
-    .too-small{
-        display: block;
-    }
-    
+@media (max-width: 479px) {   
   header .buttons-wrapper .button.button-stripe {
       margin-left: 0
   }
-    nav a{
+    nav.head-nav {
+        text-align: center;
+    }
+    nav.head-nav a{
         float: none;
-        
+        margin-left: 0;
+        margin-right: 0;
     }
 
   .discover-content h2 {
@@ -1492,6 +1480,25 @@ background: #eee;
       -o-background-size: 200px 50px;
       background-size: 200px 50px;
   }
+}
+
+.too-small{
+    height: 100%;
+    padding-top: 30%;
+    background-color: #5a5cce;
+    color: aliceblue;
+    vertical-align: middle;
+    overflow: hidden;
+    display: none;
+}
+
+@media (max-width: 374px) { 
+    .main{
+        display: none;
+    }
+    .too-small{
+        display: block;
+    }
 }
 
 .slideshow {
