@@ -127,7 +127,7 @@
     var temp=$( "#Item_7");
     x.set(temp, {className:"+=nav__item--current"});
     var scene = new ScrollMagic.Scene({
-         triggerElement:"#Content_7"
+      triggerElement:"#Content_7"
      })
      .setTween(x).addTo(e);
         
@@ -174,7 +174,8 @@
 
 	init();
     scrollTo();
-    scrollSpy();
+    
     scrollToTop();
+    scrollSpy();
 
 })(window);

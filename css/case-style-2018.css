@@ -1963,7 +1963,7 @@ ul.findings{
 	transition: opacity 0.3s, color 0.3s;
 }
 
-.nav--zahi .nav__item:not(.nav__item--current):focus .nav__item-title,
+/*.nav--zahi .nav__item:not(.nav__item--current):focus .nav__item-title,*/
 .nav--zahi .nav__item:not(.nav__item--current):hover .nav__item-title {
 	opacity: 0.5;
 }
