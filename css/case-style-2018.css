@@ -951,9 +951,8 @@ background: #eee;
     color: #FA987D;
     
 }
-{
-    
-}
+
+
 .comments .box p {
     font-size: 14px;
     line-height: 20px;
@@ -2110,4 +2109,49 @@ ul.findings{
 
 .hd-pic-sec{
     margin-top: -80px;
+}
+
+
+/* nng list*/
+.list-container .row{
+    margin-top: 20px;
+}
+.list-container i {
+    font-size: 28px; 
+}
+.list-container h2{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    vertical-align: middle;
+    padding-top: 0;
+    margin-top: 0;
+}
+.list-container ul{
+    text-align: left;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+/*    list-style: circle;*/
+/*    color: #e00000;*/
+}
+
+.list-container ul li{
+    padding-left: 40px;
+    font-size: 14px;  
+    color: #191818;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    vertical-align: top !important;
+/*    line-height: 2px;*/
+    
+}
+.list-container li::before{
+    content: '✱  ';
+/*    color:  #d66546;*/
+    padding-right: 8px;
+}
+
+.list-container ul li b, .list-container li::before, .list-container i,#nng a.highlight {
+    color: rgb(217, 4, 78);
+    
 }
