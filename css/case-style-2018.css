@@ -535,7 +535,10 @@ header.with-hd-pic{
     background-image: url(../img/bk_header.png);
 }
 #nng header h1{
-    color: #e00000;
+/*    color: #e00000;*/
+}
+#baas header h1, #baas header p{
+    color: #fff !important;
 }
 
 .header-wrapper {
@@ -949,8 +952,7 @@ background: #eee;
 }
 #csus .highlight{
     color: #FA987D;
-    
-}
+ }
 
 
 .comments .box p {
@@ -2151,7 +2153,23 @@ ul.findings{
     padding-right: 8px;
 }
 
-.list-container ul li b, .list-container li::before, .list-container i,#nng a.highlight {
+.list-container ul li b, .list-container li::before, .list-container i,#nng a.highlight, #nng header h1 {
     color: rgb(217, 4, 78);
     
 }
+.inside-des{
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 10px;
+    padding: 8px !important;
+-webkit-box-shadow: 0px 0px 10px -2px rgba(220,226,250,1);
+-moz-box-shadow: 0px 0px 10px -2px rgba(220,226,250,1);
+box-shadow: 0px 0px 10px -2px rgba(220,226,250,1);
+    background-color: #e3eaff;
+    min-height: 88px;
+}
+#baas .highlight{
+    color: #4178BE;
+    font-weight: 700;
+ }
+

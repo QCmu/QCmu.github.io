@@ -4,16 +4,17 @@
 <head>
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta charset="utf-8">
-    <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="shortcut icon" href="img/favicon.ico">
     <title>Blockchain as a Service | Qiaochu Mu</title>
-    <!--    <meta name="description" content="A free responsive HTML 5 template with a clean style.">-->
-    <!--    <meta name="keywords" content="free template, html 5, responsive, clean, scss">-->
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/12968/29782/5a74b4bef629d9178c35c67c.css' rel='stylesheet' type='text/css' />
     <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/touch/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/touch/apple-touch-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="144x144" href="images/touch/apple-touch-icon-144x144.png">
-    <link rel="stylesheet" href="css/case-style.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/case-style-2018.css">
     <!--[if lt IE 9]>
         <script src="js/html5.js"></script>
         <script src="js/respond.js"></script>
@@ -21,31 +22,49 @@
 </head>
 
 <body class="no-js" id="baas">
+    <div class="too-small">
+        <div class="container-fluid pic-container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Hi Dr.Ant! </h1>
+                    <p>Why not check it on a bigger screen :D </p>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="main">
-        <nav class="cl-effect-1">
-            <a href="//qiaochumu.com#about-sec">About</a>
-            <a href="//qiaochumu.com">Home</a>
+        <nav class="cl-effect-1 head-nav">
+            <a href="//qiaochumu.com//resume-qiaochu.pdf"><i class="fas fa-book"></i> Resume</a>
+            <a href="//qiaochumu.com#about-sec"><i class="fas fa-hand-peace"></i> About Me</a>
+            <a href="//qiaochumu.com#more"><i class="fas fa-magic"></i> Portfolio</a>
         </nav>
         <header>
             <div class="wrap">
-                <!--                <img src="upload/iphone.png" alt="" class="header-img">-->
                 <div class="header-wrapper">
-                    <h1>Blockchain as a Service</h1>
+                    <h1>Internship: Blockchain as a Service</h1>
                     <p>Blockchain as a Service (BaaS) is a developer-oriented blockchain platform hosted by IBM Research - China.</p>
-                    <!--                    <p class="autor"><a href="#">Dan Rowinski</a></p>-->
-
+                    <!--
                     <div class="buttons-wrapper">
                         <a href="https://ptopenlab.com" target="_blank" class="button">Visit Site</a>
-                        <!--                        <a href="#" class="button button-stripe">Learn more</a>-->
+                                                <a href="#" class="button button-stripe">Learn more</a>
                     </div>
+-->
                 </div>
                 <!-- /.header-wrapper -->
-                
             </div>
             <!-- /.wrap -->
         </header>
         <div class="spanning">
-            <div class="promo clearfix">
+            <div class="sidebar">
+                <nav class="sidebar-nav nav--zahi">
+                    <button class="nav__item" aria-label="Item 1" id="Item_1"><span class="nav__item-title">Summary</span></button>
+                    <button class="nav__item" aria-label="Item 2" id="Item_2"><span class="nav__item-title">UX Design</span></button>
+                    <button class="nav__item" aria-label="Item 3" id="Item_3"><span class="nav__item-title">Design Iteration</span></button>
+                    <button class="nav__item" aria-label="Item 4" id="Item_4"><span class="nav__item-title">Development</span></button>
+                    <button class="nav__item" aria-label="Item 5" id="Item_5"><span class="nav__item-title">Side Thing</span></button>
+                </nav>
+            </div>
+            <div class="promo clearfix" id="Content_1">
                 <div class="wrap">
                     <div class="promo-wrapper clearfix">
                         <div class="promo-column">
@@ -64,167 +83,196 @@
                             <p>6 - 7 / 2016</p>
                         </div>
                     </div>
+                    <p class="p-title">Summary</p>
                     <p>
-<!--                        Blockchain is a disruptive technology applied to reshape that reshapes underlying architecture of financing, supply chain, healthcare and etc.-->
+                        <!--                        Blockchain is a disruptive technology applied to reshape that reshapes underlying architecture of financing, supply chain, healthcare and etc.-->
                         During my internship in IBM Research - China, I participated in the development of Blockchian as a Service (BaaS), the first cloud-based blockchain service in China. The BaaS attracts influential customers from Alibaba, Microsoft, HUAWEI, Baidu and other companies. Currently, the BaaS hosts 20,000+ blockchains, 1,000+ membership applications and 6,000+ operations in total. </p>
-                    
                     <p>During the internship, I worked as the only designer and the front-end developer for the web application. I re-designed the workflow and the user interface, and developed the front-end web code and integrated with the back-end system.</p>
-
+                    <p>The platform is hosted in <a href="https://crl.ptopenlab.com:8800/bc/" target="_blank">SuperVessel Cloud, IBM Research-China</a>. Sometimes the network connection from oversea is not okay, so please check the my design and front-end work <a href="http://qiaochumu.com/bc-platform/index.html" target="_blank">here</a> at Github.</p>
+                    <p>A side project during the internship is cloud-based deep-learning optimization service web application. I designed and developed it with Bootstrap framework in only three days. Check it <a href="http://qiaochumu.com/deeplearning-monitor-dashboard/" target="_blank">here</a> at Github.</p>
                     <div class="tag-wrapper">
                         <ul class="tags">
                             <li><a href="#" class="tag">Workflow Design</a></li>
                             <li><a href="#" class="tag">UX Design</a></li>
                             <li><a href="#" class="tag">Wireframe</a></li>
-                            <li><a href="#" class="tag">High-Fidelity Prototyping</a></li>
+                            <li><a href="#" class="tag">High-fidelity Prototyping</a></li>
+                            <li><a href="#" class="tag">Axure</a></li>
                             <li><a href="#" class="tag">html/css/Javascript</a></li>
-                            <li><a href="#" class="tag">jquery</a></li>
                         </ul>
                     </div>
                 </div>
                 <!-- /.wrap -->
             </div>
             <!-- /.promo clearfix -->
-            
-            
-        
-            
-            
-            
-            
-            <div class="comments clearfix research solo">
+            <div class="section grey-bgc clearfix " id="Content_2">
                 <div class="wrap">
-                    <h2>Workflow</h2>
-                    <p>-</p>
-                    <img src="img/flow/flow.001.png">
-                    <img src="img/flow/flow.002.png">
-                    <img src="img/flow/flow.003.png">
-                    
-                </div>
-                <!-- /.wrap -->
-            </div>
-            <div class="comments clearfix research solo solo2">
-                <div class="wrap">
-                    <h2>Prototype</h2>
-                    <p>-</p>              
-<!--                    <img src="img/baas-p.png">-->
-
-                            <div class="discover-img-inside"><img src="img/baas-p.png" height="486" width="534" alt=""></div>
-                    <div class="discover-img-inside"><img src="img/baas-p2.png" height="486" width="534" alt=""></div>
-<!--
-                            <div class="discover-img-inside"><img src="img/baas/baas.001.png" alt=""></div>
-                        <div class="discover-img-inside"><img src="img/baas/baas.002.png" height="486" width="534" alt=""></div>
-                        <div class="discover-img-inside"><img src="img/baas/baas.003.png" height="486" width="534" alt=""></div>
--->
-
-                </div>
-                <!-- /.wrap -->
-            </div>
-                        
-            <div class="comments clearfix research">
-                <div class="wrap">
-                    <h2>Design</h2>
-                    <div class="tab">
-                        <div class="box visible">
-                            <p>-</p>
-                            <img src="img/baas/Home.png">
-                            <p>-</p>
-                            <p>The user could see the chains and the smart contracts that they created in the homepage. </p>
-
+                    <p class="p-title no-bottom highlight">Phase 1: UX design - workflow redesign </p>
+                    <div class="methods">
+                        <p>Hierachy Task Analysis | Wireframe | Prototype | Axure</p>
+                    </div>
+                    <p> The platform aimed to target users who have knowledge of Blockchain and would like to build their blockchains with little effort. Before I joined in, the team developed the first version of the BaaS platform with little consideration for user experience. The workflow at that time was complicated, given that Blockchain technology was such a new concept at that time. So the first step I took was to redesign the workflow of the system, to make it clear and friendly for users who are blockchain newcomers. </p>
+                    <div class="container-fluid pic-container"></div>
+                    <div class="container-fluid pic-container">
+                        <div class="row">
+                            <!--                            <div class="col-xs-6 col-md-6"><img src="img/flow/flow.001.png"></div>-->
+                            <div class="col-xs-6 col-md-6"><img src="img/flow/flow.002.png"></div>
+                            <div class="col-xs-6 col-md-6"><img src="img/flow/flow.003.png"></div>
                         </div>
-                        <div class="box">
-                            <p>-</p>
-                            <img src="img/baas/Chain-list.png">
-                            <p>-</p>
-<!--
-                            <p>Every participant can weigh the factors according to their own preferences. 
-They can then give a score for each factor in the evaluation matrix for each option. 
-The total score for each option is calculated automatically.</p>
--->
+                    </div>
+                    <p> The low-fidelity prototype was built with Axure, and then UI design with sketch. </p>
+                    <div class="container-fluid pic-container">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6"><img src="img/baas-p2.png"></div>
+                            <div class="col-xs-12 col-md-6"><img src="img/baas-p.png"></div>
                         </div>
-                        <div class="box">
-                            <p>-</p>
-                            <img src="img/baas/Chain%20Main.png">
-                            <p>-</p>
-<!--
-                            <p>During the evaluation, participants can comment below each cell. 
-The comments can provide supplementary information
-to help the participants score and give participants a chance
-to voice their personal opinions.</p>
--->
-                        </div>
-                        <div class="box">
-                            <p>-</p>
-                            <img src="img/baas/SC%20list.png">
-                            <p>-</p>
-<!--
-                            <p>The report page will display the final rankings and scores.
-The darker colors indicate higher rankings.
-The cells will also be colored 
-if a factor contains a higher score difference. 
-Participants can then use these information to further discuss and reach a consensus.
-                            </p>
--->
-                        </div>
-                        <ul class="tabs">
-                            <li class="active"></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <a href="#" class="tab-prev"></a>
-                        <a href="#" class="tab-next"></a>
                     </div>
                 </div>
                 <!-- /.wrap -->
             </div>
-             
-            
-            <div class="comments clearfix design">
+            <div class="section clearfix " id="Content_3">
                 <div class="wrap">
-                    <div class="tab">
-                        <div class="box visible commentsp">
-                            <h2>Development</h2>
-                            <p>I developed the front-end web code using html/css/js, along with jquery and jqueryUI frame. After that, I integrated it with the back-end system in collabration with other developers. </p>
-                            
-<p>I really enjoyed the impletation process of my own design! Apparently there was no confict between the designer and the developer, when they are all me myself.</p>
-                           
-<p>The platform is hosted in <a href="https://crl.ptopenlab.com:8800/bc/" target="_blank">SuperVessel Cloud, IBM Research-China</a>. Sometimes the network connection from oversea is not okay, so please check the my design and front-end work <a href="http://qiaochumu.com/bc-platform/index.html" target= "_blank">here</a> at Github.</p>
-                            
-                            <p>During the internship I also designed a cloud-based deep-learning optimization service web application. I developed the front-end web code for this web application with Bootstrap framework and JavaScript.  Check it <a href="http://qiaochumu.com/deeplearning-monitor-dashboard/" target= "_blank">here</a> at Github.</p>
+                    <p class="p-title no-bottom highlight">Phase 2: Design Iteration </p>
+                    <div class="methods">
+                        <p>UI Design | Prototype | Sketch</p>
+                    </div>
+                    <p> As the development team continued working on the second version of the BaaS platform, I decided to take the chance to make a design iteration, much as to rebuild the user experience for the system. The design was created by Sketch. </p>
+                    <!--                    <div class="container-fluid pic-container"></div>-->
+                    <div class="container-fluid pic-container">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <div class="row">
+                                    <img src="img/baas/Home.png">
+                                </div>
+                                <div class="row inside-des">
+                                    <p>The user could see the chains and the smart contracts that they created in the homepage. </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <div class="row">
+                                    <img src="img/baas/Chain-list.png">
+                                </div>
+                                <div class="row inside-des">
+                                    <p>Every participant can weigh the factors according to their own preferences. They can then give a score for each factor in the evaluation matrix for each option. The total score for each option is calculated automatically. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <div class="row">
+                                    <img src="img/baas/Chain-Main.png">
+                                </div>
+                                <div class="row inside-des">
+                                    <p>During the evaluation, participants can comment below each cell. The comments can provide supplementary information to help the participants score and give participants a chance to voice their personal opinions.</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <div class="row">
+                                    <img src="img/baas/SC-list.png">
+                                </div>
+                                <div class="row inside-des">
+                                    <p>The report page will display the final rankings and scores. The darker colors indicate higher rankings. The cells will also be colored if a factor contains a higher score difference. Participants can then use these information to further discuss and reach a consensus.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.wrap -->
+            </div>
+            <div class="section clearfix grey-bgc" id="Content_4">
+                <div class="wrap">
+                    <p class="p-title no-bottom highlight">Phase 3: Development - full-stack creation</p>
+                    <div class="methods">
+                        <p>Front-end engineering | Bootstrap </p>
+                    </div>
+                    <p>
+                        I developed the front-end web code using html/css/js, along with jquery and jqueryUI frame. After that, I integrated it with the back-end system in collabration with other developers. </p>
+                    <p>I really enjoyed the impletation process of my own design! Apparently there was no confict between the designer and the developer, when they are all me myself.</p>
+                    <p>The platform is hosted in <a href="https://crl.ptopenlab.com:8800/bc/" target="_blank">SuperVessel Cloud, IBM Research-China</a>. Sometimes the network connection from oversea is not okay, so please check the my design and front-end work <a href="http://qiaochumu.com/bc-platform/index.html" class="highlight" target="_blank">here</a> at Github.</p>
+                    <p>During the internship I also designed a cloud-based deep-learning optimization service web application as a side project. I developed the front-end web code for this web application with Bootstrap framework and JavaScript. </p>
+                    <div class="container-fluid pic-container"></div>
+                    <div class="container-fluid pic-container">
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12"><img src="img/baas/monitor-pf.gif"></div>
+                        </div>
+                    </div>
+                    <p>I designed and developed it with Bootstrap framework in only three days. Check it <a href="http://qiaochumu.com/deeplearning-monitor-dashboard/" class="highlight" target="_blank">here</a> at Github. </p>
+                </div>
+            </div>
+            <div class="section clearfix " id="Content_5">
+                <div class="wrap">
+                    <p class="p-title no-bottom highlight">What's more: a seminar introducing UX to the engineers </p>
+                    <div class="methods">
+                        <p>Presentation</p>
+                    </div>
+                    <p> As the first ux intern in this research-based group in IBM-Research China, I was asked to introduce the concept of UX design to all my collegues. I was honored to have the chance to let developers understand the importance of ux design and the basic principles for UX design. But to be honest I was such a UX newbie at that time! I hope I didn't convey anything wrong :). </p>
+                    <div class="container-fluid pic-container">
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12"><img src="img/baas/seminar.gif"></div>
+                        </div>
+                    </div>
+                    <p>The slides are created by <a href="https://github.com/hakimel/reveal.js/" target="_blank">reveal.js</a>. Check the full slides <a href=" http://qiaochumu.com/slides-uxd-seminar/" target="_blank" class="highlight">here</a> at Github. </p>
+                </div>
+            </div>
+            <div class="section thank-sec ">
+                <div class="container-fluid pic-container">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12"><img src="img/baas-h.png"></div>
+                        <div class="col-md-12 col-xs-12">
+                            <h2 id="thank-sec">Thanks For Scrolling!</h2></div>
+                        <a href="javascript:" id="return-to-top" class="return-to-top return-fixed"><i class="fas fa-arrow-up"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="end-nav">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4  col-xs-4 pn-new ">
+                            <!--                            <div class="container-fluid">-->
+                            <a href="nng_case.html">
+                                <div class=" image">
+                                    <img src="img/nng-h.png">
+                                </div>
+                            </a>
+                            <!--                            </div>-->
+                        </div>
+                        <div class="col-md-4 col-xs-4 pn-new view-button-new">
+                            <a href="//qiaochumu.com#more">
+                                <div class=" image">
+                                    <img src="img/work-h.png">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4  col-xs-4 pn-new">
+                            <a href="consensus_case.html">
+                                <div class=" image">
+                                    <img src="img/csus-h.png">
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            
-<!--
-            
-            <div class="video clearfix">
-                <div class="wrap">
-                    <div class="video-block">
-                        <iframe width="700" height="415" src="https://www.youtube.com/embed/TAItpVY8mJw" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-                 /.wrap 
+        </div>
+        <!--        spanning-->
+        <footer>
+            <div class="wrap">
+                <p>Qiaochu Mu © 2018 | Last Update: Feb. 12, 2018 </p>
             </div>
--->
-            
-            
-            
-            <footer>
-                <div class="wrap">
-                    <p>Design & Code by Qiaochu Mu © 2017 | Last Update: Feb. 9, 2017 </p>
-                    <nav class="cl-effect-1">
-                        <a href="//qiaochumu.com#about-sec">About</a>
-                        <a href="//qiaochumu.com">Home</a>
-                    </nav>
-                </div>
-                <!-- /.wrap -->
-            </footer>
-            <script src="js/pace.min.js"></script>
-            <script src="js/jquery-3.1.1.min.js"></script>
-            <script src="js/library.js"></script>
-            <script src="js/script.js"></script>
-            <script src="js/retina.js"></script>
+            <!-- /.wrap -->
+        </footer>
+    </div>
+    <!--    main-->
+    <script src="js/pace.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/library.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/ScrollToPlugin.js"></script>
+    <script src="js/script-2018.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/retina.js"></script>
 </body>
 
 </html>
