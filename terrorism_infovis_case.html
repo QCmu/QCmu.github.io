@@ -4,16 +4,17 @@
 <head>
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta charset="utf-8">
-    <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
     <link rel="shortcut icon" href="img/favicon.ico">
     <title>Terrorism Visualization | Qiaochu Mu</title>
-    <!--    <meta name="description" content="A free responsive HTML 5 template with a clean style.">-->
-    <!--    <meta name="keywords" content="free template, html 5, responsive, clean, scss">-->
-    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/12968/29782/5a74b4bef629d9178c35c67c.css' rel='stylesheet' type='text/css' />    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/touch/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/touch/apple-touch-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="144x144" href="images/touch/apple-touch-icon-144x144.png">
-    <link rel="stylesheet" href="css/case-style.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/case-style-2018.css">
     <!--[if lt IE 9]>
         <script src="js/html5.js"></script>
         <script src="js/respond.js"></script>
@@ -21,31 +22,61 @@
 </head>
 
 <body class="no-js" id="infovis">
+    <div class="too-small">
+        <div class="container-fluid pic-container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Hi Dr.Ant! </h1>
+                    <p>Why not check it on a bigger screen :D </p>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="main">
-        <nav class="cl-effect-1">
-            <a href="//qiaochumu.com#about-sec">About</a>
-            <a href="//qiaochumu.com">Home</a>
+        <nav class="cl-effect-1 head-nav">
+            <a href="//qiaochumu.com//resume-qiaochu.pdf"><i class="fas fa-book"></i> Resume</a>
+            <a href="//qiaochumu.com#about-sec"><i class="fas fa-hand-peace"></i> About Me</a>
+            <a href="//qiaochumu.com#more"><i class="fas fa-magic"></i> Portfolio</a>
         </nav>
-        <header>
+        
+<!--         <a href="http://globalterrorism.surge.sh/" target="_blank" class="button">Visit Site</a>-->
+        
+        <header class="with-hd-pic">
             <div class="wrap">
-                <!--                <img src="upload/iphone.png" alt="" class="header-img">-->
                 <div class="header-wrapper">
                     <h1>Global Terrorism Visualization<span></span></h1>
                     <p>An Interactive visualization of global terrorism activity from 2012 to 2015 using d3.js and React.</p>
-                    <div class="buttons-wrapper">
-                        <a href="http://globalterrorism.surge.sh/" target="_blank" class="button">Visit Site</a>
-                        <!--                        <a href="#" class="button button-stripe">Learn more</a>-->
-                    </div>
-
+                   
                 </div>
                 <!-- /.header-wrapper -->
             </div>
             <!-- /.wrap -->
         </header>
+
         <div class="spanning">
+            
+            <div class="sidebar">
+                <nav class="sidebar-nav nav--zahi">
+                    <button class="nav__item" aria-label="Item 1" id="Item_1"><span class="nav__item-title">Summary</span></button>
+
+                </nav>
+            </div>
+            
+            <div class="hd-pic-sec">
+                <div class="container-fluid pic-container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-xs-12" ><iframe src="https://player.vimeo.com/video/203410894" height="415" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
             <div class="promo clearfix">
                 <div class="wrap">
-                    <div class="promo-wrapper clearfix">
+                    <div class="promo-wrapper clearfix" id="Content_1">
                         <div class="promo-column">
                             <!--                            <img src="upload/pin.png" height="32" width="24" alt="">-->
                             <h5>ROLE</h5>
@@ -62,55 +93,98 @@
                             <p>10 - 12 / 2016</p>
                         </div>
                     </div>
-                    <p>As a bioinformatics master student before, I used to work as a data analyst (I did research in DNA & RNA), which kindles my interest in information visualization. How could InfoVis help to analysis data? During the course project last semester, I tried to find the answer with some hands-on experience.  </p>
+                    
+                    <p class="p-title">Summary</p>
+                    <p>As a bioinformatics master student before, I used to work as a data analyst (I did research in DNA & RNA), which kindles my interest in information visualization. How could InfoVis help to analysis data? During the course project last semester, I tried to find the answer with some hands-on experience. </p>
                     <p>Terrorism is seizing world’s attention when more and more serious bombing, hijacking and assault events are happening around the world and claimed by the terrorists. It is important for organizations and individuals to learn about how, when and where could a terrorism attack happen. This visualization project provides an overview of global terrorism attacks from 2012 and 2015, and specifically focus on the types of attacks and targets.</p>
-                    <p>In this project, we designed and implemented this interactive visualization tool including a sankey graph, a complex stack bar chart, a activity map and a time-line tool, with d3.js and React. The database was implemented by Google Firebase. As a front-end developer, I was responsible for the stack bar chart, the activity map and the overall responsive layout.</p>
+                    <p>In this project, we designed and implemented this interactive visualization tool including a sankey graph, a complex stack bar chart, a activity map and a time-line tool, with <b class="highlight"> d3.js</b> and  <b class="highlight">React</b>. The database was implemented by <b class="highlight"> Google Firebase</b>. As a front-end developer, I was responsible for the <b class="highlight">stack bar chart, the activity map and the overall responsive layout</b>.</p>
                     <div class="tag-wrapper">
                         <ul class="tags">
                             <li><a href="#" class="tag">Information Visualization</a></li>
                             <li><a href="#" class="tag">d3.js</a></li>
                             <li><a href="#" class="tag">Tableau</a></li>
                             <li><a href="#" class="tag">Firebase</a></li>
-                            <li><a href="#" class="tag">React</a></li>                            
+                            <li><a href="#" class="tag">React</a></li>
                             <li><a href="#" class="tag">CSS</a></li>
                             <li><a href="#" class="tag">Javascript</a></li>
                         </ul>
                     </div>
+                     <p class="p-title no-bottom highlight">Visit the Site <a href="http://globalterrorism.surge.sh/" target="_blank" >here</a> !</p>
                 </div>
                 <!-- /.wrap -->
             </div>
             <!-- /.promo clearfix -->
             
             
-            
-            
-            <div class="video clearfix">
-                <div class="wrap">
-                    <div class="video-block">
-                        <iframe src="https://player.vimeo.com/video/203410894" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/203410894">infovis project</a> from <a href="https://vimeo.com/user62685679">Qiaochu Mu</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+             <div class="section thank-sec ">
+                <div class="container-fluid pic-container">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12"><img src="img/infovis-h.png"></div>
+                        <div class="col-md-12 col-xs-12">
+                            <h2 id="thank-sec">Thanks For Scrolling!</h2></div>
+                        <a href="javascript:" id="return-to-top" class="return-to-top return-fixed"><i class="fas fa-arrow-up"></i></a>
                     </div>
                 </div>
-                <!-- /.wrap -->
             </div>
             
-            
-            
-            <footer>
-                <div class="wrap">
-                    <p>Design & Code by Qiaochu Mu © 2017 | Last Update: Feb. 10, 2017 </p>
-                    <nav class="cl-effect-1">
-                        <a href="//qiaochumu.com#about-sec">About</a>
-                        <a href="//qiaochumu.com">Home</a>
-                    </nav>
+            <div class="end-nav">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4  col-xs-4 pn-new ">
+                            <!--                            <div class="container-fluid">-->
+                            <a href="consensus_case.html">
+                                <!--                                <div class="row">-->
+                                <div class=" image">
+                                    <img src="img/csus-h.png">
+                                </div>
+                                <!--
+                                    <div class="col-md-0 btn">
+                                        Prev
+                                    </div>
+-->
+                                <!--                                </div>-->
+                            </a>
+                            <!--                            </div>-->
+                        </div>
+                        <div class="col-md-4 col-xs-4 pn-new view-button-new">
+                            <a href="//qiaochumu.com#more">
+                                <div class=" image">
+                                    <img src="img/work-h.png">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4  col-xs-4 pn-new">
+                            <a href="beatkcal_case.html">
+                                <div class=" image">
+                                    <img src="img/bk-h.png">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <!-- /.wrap -->
-            </footer>
+            </div>
+
+            
+        </div>
+
+        <footer>
+            <div class="wrap">
+                <p>Qiaochu Mu © 2018 | Last Update: Feb. 12, 2018 </p>
+            </div>
+            <!-- /.wrap -->
+        </footer>
+            </div>
             <script src="js/pace.min.js"></script>
-            <script src="js/jquery-3.1.1.min.js"></script>
-            <script src="js/library.js"></script>
-            <script src="js/script.js"></script>
-            <script src="js/retina.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/library.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/ScrollToPlugin.js"></script>
+    <script src="js/script-2018.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/retina.js"></script>
 </body>
 
 </html>
