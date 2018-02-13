@@ -82,8 +82,20 @@
      
      
      
+     
+     
 
      var o = new ScrollMagic.Scene({ duration: $(window).height() }).setTween(t).addTo(e);
+     
+//     const mq = window.matchMedia( "(min-width: 767px)" );
+//     if (mq.matches) {
+//  // window width is at least 500px
+//          $("#photo-sec").css("display","none");
+//     } else {
+//  // window width is less than 500px
+//        
+         
+    // }
      
  }
 
