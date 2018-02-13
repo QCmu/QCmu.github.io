@@ -523,7 +523,7 @@ header.with-hd-pic{
     padding-bottom: 100px;
 }
 #csus header{
-    background-image: url(../img/csus_header.png);
+/*    background-image: url(../img/csus_header.png);*/
 }
 #baas header{
     background-image: url(../img/baas_header.png);
@@ -534,8 +534,8 @@ header.with-hd-pic{
 #bk header{
     background-image: url(../img/bk_header.png);
 }
-#nng header h1{
-/*    color: #e00000;*/
+#csus header h1{
+    color: #FA987D;
 }
 #baas header h1, #baas header p{
     color: #fff !important;
@@ -2172,4 +2172,23 @@ box-shadow: 0px 0px 10px -2px rgba(220,226,250,1);
     color: #4178BE;
     font-weight: 700;
  }
-
+#csus iframe{
+/*    text-align: center;*/
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+.pic-with-text p{
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.4;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pic-with-text p::before{
+    content: "(ง •̀_•́)ง   ";
+    color: #FA987D;
+}
+.pic-with-text .row{
+    margin-top: 30px;
+}

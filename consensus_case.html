@@ -4,45 +4,76 @@
 <head>
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta charset="utf-8">
-    <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="shortcut icon" href="img/favicon.ico">
     <title>ConsensUS | Qiaochu Mu</title>
-    <!--    <meta name="description" content="A free responsive HTML 5 template with a clean style.">-->
-    <!--    <meta name="keywords" content="free template, html 5, responsive, clean, scss">-->
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/12968/29782/5a74b4bef629d9178c35c67c.css' rel='stylesheet' type='text/css' />
     <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/touch/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/touch/apple-touch-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="144x144" href="images/touch/apple-touch-icon-144x144.png">
-    <link rel="stylesheet" href="css/case-style.css">
-    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/case-style-2018.css">
         <script src="js/html5.js"></script>
         <script src="js/respond.js"></script>
     <![endif]-->
 </head>
 
 <body class="no-js" id="csus">
+    <div class="too-small">
+        <div class="container-fluid pic-container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Hi Dr.Ant! </h1>
+                    <p>Why not check it on a bigger screen :D </p>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="main">
-        <nav class="cl-effect-1">
-            <a href="//qiaochumu.com#about-sec">About</a>
-            <a href="//qiaochumu.com">Home</a>
+        <nav class="cl-effect-1 head-nav">
+            <a href="//qiaochumu.com//resume-qiaochu.pdf"><i class="fas fa-book"></i> Resume</a>
+            <a href="//qiaochumu.com#about-sec"><i class="fas fa-hand-peace"></i> About Me</a>
+            <a href="//qiaochumu.com#more"><i class="fas fa-magic"></i> Portfolio</a>
         </nav>
-        <header>
+        <header class="with-hd-pic">
             <div class="wrap">
-                <!--                <img src="upload/iphone.png" alt="" class="header-img">-->
                 <div class="header-wrapper">
                     <h1>ConsensUs<span></span></h1>
                     <p>ConsensUs is a web application as a group-decision-making tool to summarize complex group evaluation.</p>
-                    <!--                    <p class="autor"><a href="#">Dan Rowinski</a></p>-->
-
+                   
                 </div>
                 <!-- /.header-wrapper -->
             </div>
             <!-- /.wrap -->
         </header>
         <div class="spanning">
+            
+            
+            <div class="sidebar">
+                <nav class="sidebar-nav nav--zahi">
+                    <button class="nav__item" aria-label="Item 1" id="Item_1"><span class="nav__item-title">Summary</span></button>
+                    <button class="nav__item" aria-label="Item 2" id="Item_2"><span class="nav__item-title">Research</span></button>
+                    <button class="nav__item" aria-label="Item 3" id="Item_3"><span class="nav__item-title">Design</span></button>
+                    <button class="nav__item" aria-label="Item 4" id="Item_4"><span class="nav__item-title">Development</span></button>
+                </nav>
+            </div>
+            
+            <div class="hd-pic-sec">
+                <div class="container-fluid pic-container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-xs-12" ><iframe height="415" src="https://www.youtube.com/embed/TAItpVY8mJw" frameborder="0" allowfullscreen></iframe></div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            
             <div class="promo clearfix">
                 <div class="wrap">
-                    <div class="promo-wrapper clearfix">
+                    <div class="promo-wrapper clearfix" id="Content_1">
                         <div class="promo-column">
                             <!--                            <img src="upload/pin.png" height="32" width="24" alt="">-->
                             <h5>ROLE</h5>
@@ -59,12 +90,15 @@
                             <p>7 - 8 / 2015</p>
                         </div>
                     </div>
+                    
+                    
+                    <p class="p-title">Summary</p>
                     <p>Groups often face difficulty reaching consensus. For complex
 decisions with multiple latent criteria, discourse alone
 may impede groups from pinpointing fundamental disagreements.
 To help support a consensus building process, we
 created ConsensUs, a novel web application that help make decisions through a shared decision matrix and highlights disagreements in comparative decisions.</p>
-                    <p>In this project, I worked with one partner <a href="https://www.linkedin.com/in/ming-yang-32246aa1" target="_blank">(Ming Yang)</a> and the advisor Prof. Steven Dow in Protolab, HCII @ CMU. We designed and then implemented this tool in 6 weeks, during which we conducted competitive analysis, making functional prototypes, wireframes and high-fidelity prototypes, and finally implemented by using Meteor.js frame and MongoDB when I contributed 90% of the code.</p>
+                    <p>In this project, I worked with one partner <a href="https://www.linkedin.com/in/ming-yang-32246aa1" target="_blank">(Ming Yang)</a> and the advisor <a href="http://spdow.ucsd.edu/" target="_blank">Prof. Steven Dow</a> in Protolab, HCII @ CMU. We <b class="highlight">designed and then implemented this tool in 6 weeks</b>, during which we conducted competitive analysis, making functional prototypes, wireframes and high-fidelity prototypes, and finally implemented by using Meteor.js frame and MongoDB when I contributed 90% of the code.</p>
                     <div class="tag-wrapper">
                         <ul class="tags">
                             <li><a href="#" class="tag">Competitive Analysis</a></li>
@@ -88,141 +122,165 @@ created ConsensUs, a novel web application that help make decisions through a sh
             
             
             
-            <div class="comments clearfix research solo">
+            <div class="section grey-bgc clearfix" id="Content_2">
                 <div class="wrap">
-                    <h2>Problem Investigation</h2>
-                    <div class="tab">
-                        <div class="box visible">
-                            <p>-</p>
-                            <p>Have you ever tried making a decision with a group of people, such as, to decide where to live in a new city for our whole family, or, to choose a destination for Chrismas holiday? How was your experience? </p>
+                    <p class="p-title no-bottom"> Phase 1: Problem Investigation</p>
+                    
+                    <div class="methods">
+                        <p> Competitive Analysis | Piloting </p>
+                    </div>
+                    <p>Have you ever tried making a decision with a group of people, such as, to decide where to live in a new city for our whole family, or, to choose a destination for Chrismas holiday? How was your experience? </p>
                             <p>Probably it is not an easy thing to reach a consensus, and we tried to solve this problem. By conducting <span class="highlight">#competitive analysis</span> among several commercial softwares we proposed to build a <span class="highlight">shared decision matrix</span>.</p>
-                            <img src="img/csus_r1.png">
+                    <div class="container-fluid pic-container">
+                         <div class="row">
+                            <div class="col-xs-12 col-md-8 col-md-offset-2"><img src="img/csus_r1.png"></div>
+                        </div>
+                     </div>
+                    <p class="p-title highlight">Functional Prototype</p>
+                    <p>We conducted an initial functional prototyping version via Google Sheet as <span class="highlight">#piloting</span>. Every participant can evaluate different mensions for the decision. They can also set the weight for each factor. The result page will show the average of the score, so as to help the group to make a decision. Through <span class="highlight">#piloting</span>, we found that the approach of shared evaluation matrix did help the users. </p>
+                    
+                    <div class="container-fluid pic-container">
+                         <div class="row">
+                            <div class="col-xs-12 col-md-6"><img src="img/csus_p1.png"></div>
+                             <div class="col-xs-12 col-md-6"><img src="img/csus_p2.png"></div>
+                        </div>
+                     </div>
+                
+                
+                </div>
+                <!-- /.wrap -->
+            </div>
 
-                        </div>
-                        
-                    </div>
-                </div>
-                <!-- /.wrap -->
-            </div>
-            <div class="discover clearfix ideation">
+        <div class="section  clearfix" id="Content_3">
                 <div class="wrap">
-                    <div class="discover-content clearfix">
-                        <h2>Functional Prototyping</h2>
-                        <p>The first prototyping version was created by Google Sheet. Every participant can evaluate different mensions for the decision. They can also set the weight for each factor. The result page will show the average of the score, so as to help the group to make a decision. </p>
-                        <p>-</p>
-                        <p>Through <span class="highlight">#piloting</span>, we found that the approach of shared evaluation matrix did help the users. </p>
-                        <p>-</p>
-                    </div>
-                    <div class="discover-img">
-                        <div class="slideshow">
-                            <div class="discover-img-inside"><img src="img/csus_p1.png" height="486" width="534" alt=""></div>
-                            <div class="discover-img-inside"><img src="img/csus_p2.png" height="486" width="534" alt=""></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.wrap -->
-            </div>
-            <!-- /.discover clearfix -->
-            
-            
-            <div class="comments clearfix research">
-                <div class="wrap">
-                    <h2>Design</h2>
-                    <div class="tab">
-                        <div class="box visible">
-                            <p>-</p>
-                            <img src="img/cs3.png">
-                            <p>-</p>
-                            <p>The group discuss different options and factors that affect their decisions
+                    <p class="p-title no-bottom"> Phase 2: Design</p>
+                    
+                    <div class="methods">
+                        <p> UX Design | UI Design </p>
+                    </div> 
+                    
+                    <div class="container-fluid pic-container pic-with-text">
+                         <div class="row">
+                            <div class="col-xs-12 col-md-8"><img src="img/cs3.png"></div>
+                            <div class="col-xs-12 col-md-4"><p>The group discuss different options and factors that affect their decisions
 through the chatroom on the left.
 Options and factors can be changed at any time.
-The chatroom will also be available throughout the process.</p>
-
+The chatroom will also be available throughout the process.</p> </div>
                         </div>
-                        <div class="box">
-                            <p>-</p>
-                            <img src="img/cs4.png">
-                            <p>-</p>
-                            <p>Every participant can weigh the factors according to their own preferences. 
+                        
+                        <div class="row">
+                            
+                            <div class="col-xs-12 col-md-4"><p>Every participant can weigh the factors according to their own preferences. 
 They can then give a score for each factor in the evaluation matrix for each option. 
-The total score for each option is calculated automatically.</p>
+The total score for each option is calculated automatically.</p> </div>
+                            <div class="col-xs-12 col-md-8"><img src="img/cs4.png"></div>
                         </div>
-                        <div class="box">
-                            <p>-</p>
-                            <img src="img/cs5.png">
-                            <p>-</p>
-                            <p>During the evaluation, participants can comment below each cell. 
+                        
+                        <div class="row">
+                            <div class="col-xs-12 col-md-8"><img src="img/cs5.png"></div>
+                            <div class="col-xs-12 col-md-4"><p>During the evaluation, participants can comment below each cell. 
 The comments can provide supplementary information
 to help the participants score and give participants a chance
-to voice their personal opinions.</p>
+to voice their personal opinions.</p> </div>
                         </div>
-                        <div class="box">
-                            <p>-</p>
-                            <img src="img/cs6.png">
-                            <p>-</p>
-                            <p>The report page will display the final rankings and scores.
+                        
+                        <div class="row">
+                            
+                            <div class="col-xs-12 col-md-4"><p>The report page will display the final rankings and scores.
 The darker colors indicate higher rankings.
 The cells will also be colored 
 if a factor contains a higher score difference. 
-Participants can then use these information to further discuss and reach a consensus.
-                            </p>
+Participants can then use these information to further discuss and reach a consensus.</p> </div>
+                            <div class="col-xs-12 col-md-8"><img src="img/cs6.png"></div>
                         </div>
-                        <ul class="tabs">
-                            <li class="active"></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <a href="#" class="tab-prev"></a>
-                        <a href="#" class="tab-next"></a>
+                        
+                        
+                     </div>
+            </div>
+            </div>
+                    
+        <div class="section grey-bgc clearfix" id="Content_4">
+                <div class="wrap">
+                    <p class="p-title no-bottom"> Phase 3: Development</p>
+                    
+                    <div class="methods">
+                        <p> Meteor.js | MongoDB </p>
+                    </div> 
+                    <p>Meteor.js was used to accomplish functions including real-time calculation of individual user’s data and report page data, user account management, highlighted different opinions based on standard deviation, notes and chatting room. The back-end database was implemented with  MongoDB. </p>
+                    <p>My former coding training proved useful in developing the crucial matrix function independently by utilizing meteor.js in only one week.</p>
+            </div>
+        </div>
+                    
+       
+            <div class="section thank-sec ">
+                <div class="container-fluid pic-container">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12"><img src="img/csus-h.png"></div>
+                        <div class="col-md-12 col-xs-12">
+                            <h2 id="thank-sec">Thanks For Scrolling!</h2></div>
+                        <a href="javascript:" id="return-to-top" class="return-to-top return-fixed"><i class="fas fa-arrow-up"></i></a>
                     </div>
                 </div>
-                <!-- /.wrap -->
             </div>
             
-            
-            
-            
-            <div class="comments clearfix design">
-                <div class="wrap">
-                    <div class="tab">
-                        <div class="box visible">
-                            <h2>Development</h2>
-                            <p>Meteor.js was used to accomplish functions including real-time calculation of individual user’s data and report page data, user account management, highlighted different opinions based on standard deviation, notes and chatting room. The back-end database was implemented with  MongoDB. </p>
-                            <p>-</p>
-<p>My former coding training proved useful in developing the crucial matrix function independently by utilizing meteor.js in only one week.</p>
+            <div class="end-nav">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4  col-xs-4 pn-new ">
+                            <!--                            <div class="container-fluid">-->
+                            <a href="baas_case.html">
+                                <!--                                <div class="row">-->
+                                <div class=" image">
+                                    <img src="img/baas-h.png">
+                                </div>
+                                <!--
+                                    <div class="col-md-0 btn">
+                                        Prev
+                                    </div>
+-->
+                                <!--                                </div>-->
+                            </a>
+                            <!--                            </div>-->
+                        </div>
+                        <div class="col-md-4 col-xs-4 pn-new view-button-new">
+                            <a href="//qiaochumu.com#more">
+                                <div class=" image">
+                                    <img src="img/work-h.png">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4  col-xs-4 pn-new">
+                            <a href="terrorism_infovis_case.html">
+                                <div class=" image">
+                                    <img src="img/infovis-h.png">
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            
-            <div class="video clearfix">
-                <div class="wrap">
-                    <div class="video-block">
-                        <iframe width="700" height="415" src="https://www.youtube.com/embed/TAItpVY8mJw" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <!-- /.wrap -->
+        </div>
+    
+                    
+                    
+        <footer>
+            <div class="wrap">
+                <p>Qiaochu Mu © 2018 | Last Update: Feb. 12, 2018 </p>
             </div>
-            
-            
-            
-            <footer>
-                <div class="wrap">
-                    <p>Design & Code by Qiaochu Mu © 2017 | Last Update: Feb. 4, 2017 </p>
-                    <nav class="cl-effect-1">
-                        <a href="//qiaochumu.com#about-sec">About</a>
-                        <a href="//qiaochumu.com">Home</a>
-                    </nav>
-                </div>
-                <!-- /.wrap -->
-            </footer>
+            <!-- /.wrap -->
+        </footer>
+    </div>
             <script src="js/pace.min.js"></script>
-            <script src="js/jquery-3.1.1.min.js"></script>
-            <script src="js/library.js"></script>
-            <script src="js/script.js"></script>
-            <script src="js/retina.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/library.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/ScrollToPlugin.js"></script>
+    <script src="js/script-2018.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/retina.js"></script>
 </body>
 
 </html>
