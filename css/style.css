@@ -137,10 +137,10 @@ main {
     display: block;
     height: 10.5em;
     width: 10.5em;
-    background: url("../img/glasses.svg");
+    background: url("../img/glasses2.svg");
     background-size: cover;
     position: absolute;
-    top: calc(15% + 13em);
+    top: calc(15% + 16em);
     left: calc(50% - 4.2em);
     opacity: 1;
 }
@@ -288,7 +288,9 @@ main {
 }
 
 .line-1 {
-    font-family:'Bauhaus-Boldffd0b4efb32a8';
+/*    font-family:'Bauhaus-Boldffd0b4efb32a8';*/
+/*    font-family: 'Merriweather', serif;*/
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     position: relative;
     top: 20%;
@@ -659,12 +661,16 @@ main {
 
 #more > .project-title::before {
     content: ' My Works';
-    font-family:'Bauhaus-Boldffd0b4efb32a8';
+/*    font-family:'Bauhaus-Boldffd0b4efb32a8';*/
+/*    font-family: 'Merriweather', serif;*/
+    font-family: 'Poppins', sans-serif;
 }
 
 #about-sec h1::before {
-    font-family:'Bauhaus-Boldffd0b4efb32a8';
+/*    font-family:'Bauhaus-Boldffd0b4efb32a8';*/
+/*    font-family: 'Merriweather', serif;*/
     content: ' About Me';
+    font-family: 'Poppins', sans-serif;
 }
 
 #more {
@@ -1070,12 +1076,13 @@ nav {
 }
 
 nav ul {
-    position: absolute;
+    position: fixed;
     bottom: 30vh;
     list-style-type: none;
     margin: 0 auto;
     padding: 1em 2em 0 2em;
-    background-color: #fcfcfc
+    background-color: #fcfcfc;
+    z-index: 999;
 }
 
 .inner-nav {
@@ -1199,7 +1206,7 @@ nav ul li a[title="About and Contact"]::after {
 }
 
 nav ul li a.active div {
-    background-color: #5A5CCE;
+/*    background-color: #5A5CCE;*/
     -webkit-transition: .25s ease-in 0s;
     transition: .25s ease-in 0s
 }
@@ -1227,7 +1234,7 @@ nav ul li a div::before {
     z-index: 10;
     position: absolute;
     left: -25px;
-    background-color: #de7394;
+    background-color:#705cff;
     -webkit-transition: .25s ease-out .15s;
     transition: .25s ease-out .15s
 }
@@ -1342,7 +1349,9 @@ nav ul li a div#contact {
     top: 40px;
     width: 250px;
     padding: 10px 0;
-    font-family:'Bauhaus-Boldffd0b4efb32a8' !important;
+/*    font-family:'Bauhaus-Boldffd0b4efb32a8' !important;*/
+/*    font-family: 'Merriweather', serif;*/
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: bold;
     text-align: center;

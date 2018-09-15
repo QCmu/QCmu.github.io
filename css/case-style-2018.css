@@ -1920,7 +1920,8 @@ ul.findings{
 }
 .thank-sec h2
 {
-    font-family:'Bauhaus-Boldffd0b4efb32a8';
+/*    font-family:'Bauhaus-Boldffd0b4efb32a8';*/
+    
     margin-top: 20px;
     color: #5a5ece;
     text-transform: full-width;
